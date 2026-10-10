@@ -322,6 +322,17 @@ class MockModelService(BaseRouteService):
         q_lower = question.lower()
         valid = {item["name"]: item["text"] for item in self._router_fixtures.get("valid", [])}
 
+        # Screen-only questions replay the fixtures with no outdoor step, so the UI can be
+        # built and tested against null steps before a v2 model exists.
+        no_step_examples = [
+            (("exchange rate", "usd to inr", "dollar rate"), "search_no_step"),
+            (("hostel life", "what is it like to live", "work culture"), "human_no_step"),
+            (("cover letter", "email", "convert"), "ai_no_step"),
+        ]
+        for keys, name in no_step_examples:
+            if name in valid and any(k in q_lower for k in keys):
+                return parse_router_output(valid[name])
+
         human_indicators = [
             "regular",
             "regulars",
