@@ -21,43 +21,13 @@ interface ResultCardProps {
 export const ResultCard: React.FC<ResultCardProps> = ({ card, onGoOffscript, onDismiss }) => {
   const { route, reason, content } = card
 
-  const routeConfig: Record<string, { label: string; icon: string; description: string }> = {
-    AI: {
-      label: 'AI / Know how',
-      icon: '💡',
-      description: 'Stable practical know-how',
-    },
-    SEARCH: {
-      label: 'SEARCH / Find where or when',
-      icon: '🔍',
-      description: 'Public listing & schedule',
-    },
-    HUMAN: {
-      label: 'HUMAN / Ask someone',
-      icon: '👥',
-      description: 'Local tacit knowledge',
-    },
-  }
-
-  const currentRoute = routeConfig[route] || {
-    label: route,
-    icon: '⚡',
-    description: 'Routing decision',
-  }
-
   return (
     <div className="card-container">
-      {/* Route Header Badge Row */}
-      <div className="route-badge-row">
-        <div className={`route-pill ${route}`}>
-          <span className="route-pill-icon">{currentRoute.icon}</span>
-          <span className="route-pill-text">{currentRoute.label}</span>
-          {card.is_mock && <span className="mock-badge">MOCK</span>}
+      {card.is_mock && (
+        <div className="route-badge-row">
+          <span className="mock-badge">MOCK</span>
         </div>
-        <div className="card-latency-chip">
-          <span>⚡ {card.latency_ms}ms</span>
-        </div>
-      </div>
+      )}
 
       {/* Editorial Route Reason */}
       <div className="route-reason-card">

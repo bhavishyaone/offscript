@@ -9,8 +9,8 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({
-  version = '0.1.0',
-  isModelConfigured = false,
+  version: _version = '0.1.0',
+  isModelConfigured: _isModelConfigured = false,
   isMock = false,
   onReset,
   showReset = false,
@@ -31,15 +31,12 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
       </div>
       <div className="header-actions">
-        <div
-          className="health-status-dot"
-          title={isMock ? 'Mock Mode' : isModelConfigured ? 'Model Ready' : 'Live'}
-        >
-          <span className="dot-indicator" />
-          <span className="dot-label">
-            {isMock ? 'Mock' : 'Live'} v{version}
-          </span>
-        </div>
+        {isMock && (
+          <div className="health-status-dot mock-badge" title="Mock Mode">
+            <span className="dot-indicator" />
+            <span className="dot-label">MOCK</span>
+          </div>
+        )}
         {showReset && onReset && (
           <button className="header-new-btn" onClick={onReset} title="Start new question">
             + New

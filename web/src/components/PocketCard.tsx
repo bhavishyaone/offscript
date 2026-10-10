@@ -11,17 +11,6 @@ export const PocketCard: React.FC<PocketCardProps> = ({ card, onReturn }) => {
 
   return (
     <div className="pocket-wrapper">
-      {/* Outdoor HUD Status Header */}
-      <div className="pocket-header-row">
-        <div className="pocket-badge">
-          <span className="pocket-dot" />
-          <span>⚡ Offscript Active</span>
-        </div>
-        <div className="pocket-offline-tag">
-          <span>📶 Offline Ready</span>
-        </div>
-      </div>
-
       {/* Target Step: Bold & Sun-readable */}
       <div className="pocket-action-card">
         <div className="pocket-action-title">Outdoor Action</div>
@@ -68,7 +57,6 @@ export const PocketCard: React.FC<PocketCardProps> = ({ card, onReturn }) => {
         <button className="submit-btn pocket-back-btn" onClick={onReturn}>
           <span>I'm back (Report Result) →</span>
         </button>
-        <span className="pocket-footnote">Screen stayed asleep while you were out</span>
       </div>
     </div>
   )

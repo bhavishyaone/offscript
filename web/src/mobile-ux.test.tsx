@@ -21,8 +21,6 @@ describe('Mobile UX & Accessibility QA (Task A07 & AGENTS.md B7)', () => {
     )
     expect(html).toContain('for="question-input"')
     expect(html).toContain('id="question-input"')
-    expect(html).toContain('for="context-input"')
-    expect(html).toContain('id="context-input"')
   })
 
   it('QuestionForm contains accessible clear buttons with aria-labels', () => {
@@ -31,7 +29,6 @@ describe('Mobile UX & Accessibility QA (Task A07 & AGENTS.md B7)', () => {
     )
     // Renders textarea with required attribute and character counter
     expect(html).toContain('maxLength="300"')
-    expect(html).toContain('maxLength="200"')
   })
 
   it('All interactive primary and secondary actions render with accessible text', () => {

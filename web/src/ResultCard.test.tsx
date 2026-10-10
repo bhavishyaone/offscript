@@ -27,7 +27,6 @@ describe('ResultCard AI and SEARCH actions (Task A03)', () => {
       }),
     )
 
-    expect(html).toContain('AI / Know how')
     expect(html).toContain('Wait for a pause between games')
     expect(html).toContain('Walk up to the court side')
     expect(html).toContain('Go offscript')
@@ -57,7 +56,6 @@ describe('ResultCard AI and SEARCH actions (Task A03)', () => {
       }),
     )
 
-    expect(html).toContain('SEARCH / Find where or when')
     expect(html).toContain('public run club near campus')
     expect(html).toContain('Open Web Search ↗')
     expect(html).toContain('https://www.google.com/search?q=public+run+club+near+campus')
