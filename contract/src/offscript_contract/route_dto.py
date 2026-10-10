@@ -76,6 +76,11 @@ class SearchCardContent(BaseModel):
     search_url: str = Field(..., description="Search engine query link.")
     outdoor_action: str = Field(..., description="One concrete step outside.")
     summary: str | None = Field(default=None, description="Grounded answer from search results.")
+    summary_source: int | None = Field(
+        default=None,
+        ge=1,
+        description="1-based number of the source the summary relies on; set with summary.",
+    )
     local_tip: str | None = Field(default=None, description="Local tacit experience tip.")
 
 
@@ -114,7 +119,6 @@ class GuardResponse(BaseModel):
     route: None = None
     reason: str
     message: str
-    suggested_question: str | None = None
     search_url: str | None = None
     request_id: str
     latency_ms: int

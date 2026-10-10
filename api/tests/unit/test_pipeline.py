@@ -1,8 +1,16 @@
 """Unit tests for the end-to-end pipeline (AGENTS.md B3 steps 1–7)."""
 
+import asyncio
+
 from fastapi.testclient import TestClient
 
+from offscript_api.clients.serpapi import SerpApiClient
 from offscript_api.main import app
+from offscript_api.services.model_service import FakeModelService, InvalidModelOutputError
+from offscript_api.services.pipeline import run_pipeline
+from offscript_contract.route_dto import SearchSource
+from offscript_contract.router import SearchOutput, normalize_input
+from offscript_contract.search_summary import SearchSummary
 
 client = TestClient(app)
 
@@ -143,3 +151,52 @@ def test_pipeline_too_long_422():
     assert response.status_code == 422
     data = response.json()
     assert data["error"]["code"] == "question_too_long"
+
+
+# ── SEARCH summary: cited source and failures ───────────────────────
+
+SEARCH_REPLY = SearchOutput(
+    route="SEARCH",
+    reason="Opening hours change.",
+    search_query="Lalbagh open Republic Day",
+    outdoor_action="If it is open, visit during its listed hours.",
+)
+
+
+class TwoResultSerpApi(SerpApiClient):
+    def __init__(self):
+        super().__init__(api_key="test")
+
+    async def search(self, query: str, num_results: int = 3) -> list[SearchSource]:
+        return [
+            SearchSource(
+                title="Hours", url="https://www.example.org/hours", snippet="Open 7 to 6."
+            ),
+            SearchSource(title="Tickets", url="https://tickets.example.com", snippet="Entry 30."),
+        ]
+
+
+class FailingSummaryService(FakeModelService):
+    async def summarize_search(self, *args, **kwargs):
+        raise InvalidModelOutputError("Invalid search summary output: not_json")
+
+
+def _run_search(service):
+    return asyncio.run(
+        run_pipeline(normalize_input("Is Lalbagh open on Republic Day?"), "req_s", service,
+                     TwoResultSerpApi())
+    )  # fmt: skip
+
+
+def test_search_card_keeps_the_cited_source():
+    summary = SearchSummary(status="answered", summary="Open 7 to 6.", source=1, local_tip=None)
+    card = _run_search(FakeModelService(canned_route=SEARCH_REPLY, canned_summary=summary))
+    assert card.content.summary == "Open 7 to 6."
+    assert card.content.summary_source == 1
+
+
+def test_failed_summary_still_returns_the_search_links():
+    card = _run_search(FailingSummaryService(canned_route=SEARCH_REPLY))
+    assert card.kind == "card" and card.route == "SEARCH"
+    assert len(card.content.sources) == 2
+    assert card.content.summary is None and card.content.summary_source is None
