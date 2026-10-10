@@ -105,6 +105,9 @@ class SealedExample(BaseModel):
     context: str
     route: Route
     kind: Literal["outdoor", "general"]
+    # v2 sets: whether a useful real-world step is expected (true) or the answer should have
+    # outdoor_action null (false). Absent in the v1 sealed set.
+    expects_action: bool | None = None
 
     @model_validator(mode="after")
     def _clean(self) -> "SealedExample":

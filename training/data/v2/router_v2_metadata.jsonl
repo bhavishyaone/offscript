@@ -1,0 +1,1085 @@
+{"id": "v2-0001", "seed": 1, "topic": "plant science", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0002", "seed": 1, "topic": "plant science", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0003", "seed": 1, "topic": "plant science", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0004", "seed": 1, "topic": "plant science", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0005", "seed": 1, "topic": "plant science", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0006", "seed": 2, "topic": "physics concept", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0007", "seed": 2, "topic": "physics concept", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0008", "seed": 2, "topic": "physics concept", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0009", "seed": 2, "topic": "physics concept", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0010", "seed": 2, "topic": "physics concept", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0011", "seed": 3, "topic": "physics", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0012", "seed": 3, "topic": "physics", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0013", "seed": 3, "topic": "physics", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0014", "seed": 3, "topic": "physics", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0015", "seed": 3, "topic": "physics", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0016", "seed": 4, "topic": "astronomy", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0017", "seed": 4, "topic": "astronomy", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0018", "seed": 4, "topic": "astronomy", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0019", "seed": 4, "topic": "astronomy", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0020", "seed": 4, "topic": "astronomy", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0021", "seed": 5, "topic": "measurement", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0022", "seed": 5, "topic": "measurement", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0023", "seed": 5, "topic": "measurement", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0024", "seed": 5, "topic": "measurement", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0025", "seed": 5, "topic": "measurement", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0026", "seed": 6, "topic": "statistics", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0027", "seed": 6, "topic": "statistics", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0028", "seed": 6, "topic": "statistics", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0029", "seed": 6, "topic": "statistics", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0030", "seed": 6, "topic": "statistics", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0031", "seed": 7, "topic": "reference skill", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0032", "seed": 7, "topic": "reference skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0033", "seed": 7, "topic": "reference skill", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0034", "seed": 7, "topic": "reference skill", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0035", "seed": 7, "topic": "reference skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0036", "seed": 8, "topic": "budgeting", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0037", "seed": 8, "topic": "budgeting", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0038", "seed": 8, "topic": "budgeting", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0039", "seed": 8, "topic": "budgeting", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0040", "seed": 8, "topic": "budgeting", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0041", "seed": 9, "topic": "digital security", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0042", "seed": 9, "topic": "digital security", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0043", "seed": 9, "topic": "digital security", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0044", "seed": 9, "topic": "digital security", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0045", "seed": 9, "topic": "digital security", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0046", "seed": 10, "topic": "digital security", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0047", "seed": 10, "topic": "digital security", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0048", "seed": 10, "topic": "digital security", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0049", "seed": 10, "topic": "digital security", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0050", "seed": 10, "topic": "digital security", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0051", "seed": 11, "topic": "digital security", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0052", "seed": 11, "topic": "digital security", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0053", "seed": 11, "topic": "digital security", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0054", "seed": 11, "topic": "digital security", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0055", "seed": 11, "topic": "digital security", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0056", "seed": 12, "topic": "digital files", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0057", "seed": 12, "topic": "digital files", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0058", "seed": 12, "topic": "digital files", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0059", "seed": 12, "topic": "digital files", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0060", "seed": 12, "topic": "digital files", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0061", "seed": 13, "topic": "writing", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0062", "seed": 13, "topic": "writing", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0063", "seed": 13, "topic": "writing", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0064", "seed": 13, "topic": "writing", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0065", "seed": 13, "topic": "writing", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0066", "seed": 14, "topic": "writing", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0067", "seed": 14, "topic": "writing", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0068", "seed": 14, "topic": "writing", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0069", "seed": 14, "topic": "writing", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0070", "seed": 14, "topic": "writing", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0071", "seed": 15, "topic": "social skill", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0072", "seed": 15, "topic": "social skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0073", "seed": 15, "topic": "social skill", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0074", "seed": 15, "topic": "social skill", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0075", "seed": 15, "topic": "social skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0076", "seed": 16, "topic": "meeting skill", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0077", "seed": 16, "topic": "meeting skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0078", "seed": 16, "topic": "meeting skill", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0079", "seed": 16, "topic": "meeting skill", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0080", "seed": 16, "topic": "meeting skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0081", "seed": 17, "topic": "study skill", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0082", "seed": 17, "topic": "study skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0083", "seed": 17, "topic": "study skill", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0084", "seed": 17, "topic": "study skill", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0085", "seed": 17, "topic": "study skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0086", "seed": 18, "topic": "planning", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0087", "seed": 18, "topic": "planning", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0088", "seed": 18, "topic": "planning", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0089", "seed": 18, "topic": "planning", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0090", "seed": 18, "topic": "planning", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0091", "seed": 19, "topic": "decision skill", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0092", "seed": 19, "topic": "decision skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0093", "seed": 19, "topic": "decision skill", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0094", "seed": 19, "topic": "decision skill", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0095", "seed": 19, "topic": "decision skill", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0096", "seed": 20, "topic": "writing", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0097", "seed": 20, "topic": "writing", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0098", "seed": 20, "topic": "writing", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0099", "seed": 20, "topic": "writing", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0100", "seed": 20, "topic": "writing", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0101", "seed": 21, "topic": "planning", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0102", "seed": 21, "topic": "planning", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0103", "seed": 21, "topic": "planning", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0104", "seed": 21, "topic": "planning", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0105", "seed": 21, "topic": "planning", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0106", "seed": 22, "topic": "probability", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0107", "seed": 22, "topic": "probability", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0108", "seed": 22, "topic": "probability", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0109", "seed": 22, "topic": "probability", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0110", "seed": 22, "topic": "probability", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0111", "seed": 23, "topic": "computing", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0112", "seed": 23, "topic": "computing", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0113", "seed": 23, "topic": "computing", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0114", "seed": 23, "topic": "computing", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0115", "seed": 23, "topic": "computing", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0116", "seed": 24, "topic": "astronomy", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0117", "seed": 24, "topic": "astronomy", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0118", "seed": 24, "topic": "astronomy", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0119", "seed": 24, "topic": "astronomy", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0120", "seed": 24, "topic": "astronomy", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0121", "seed": 25, "topic": "physics", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0122", "seed": 25, "topic": "physics", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0123", "seed": 25, "topic": "physics", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0124", "seed": 25, "topic": "physics", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0125", "seed": 25, "topic": "physics", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0126", "seed": 26, "topic": "science", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0127", "seed": 26, "topic": "science", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0128", "seed": 26, "topic": "science", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0129", "seed": 26, "topic": "science", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0130", "seed": 26, "topic": "science", "segment": "general", "style": "injection", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0131", "seed": 27, "topic": "science", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0132", "seed": 27, "topic": "science", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0133", "seed": 27, "topic": "science", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0134", "seed": 27, "topic": "science", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0135", "seed": 27, "topic": "science", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0136", "seed": 28, "topic": "learning", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0137", "seed": 28, "topic": "learning", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0138", "seed": 28, "topic": "learning", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0139", "seed": 28, "topic": "learning", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0140", "seed": 28, "topic": "learning", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0141", "seed": 29, "topic": "communication", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0142", "seed": 29, "topic": "communication", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0143", "seed": 29, "topic": "communication", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0144", "seed": 29, "topic": "communication", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0145", "seed": 29, "topic": "communication", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0146", "seed": 30, "topic": "finance concept", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0147", "seed": 30, "topic": "finance concept", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0148", "seed": 30, "topic": "finance concept", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0149", "seed": 30, "topic": "finance concept", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0150", "seed": 30, "topic": "finance concept", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0151", "seed": 31, "topic": "observation", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0152", "seed": 31, "topic": "observation", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0153", "seed": 31, "topic": "observation", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0154", "seed": 31, "topic": "observation", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0155", "seed": 31, "topic": "observation", "segment": "general", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0156", "seed": 32, "topic": "observation", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0157", "seed": 32, "topic": "observation", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0158", "seed": 32, "topic": "observation", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0159", "seed": 32, "topic": "observation", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0160", "seed": 32, "topic": "observation", "segment": "general", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0161", "seed": 33, "topic": "observation", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0162", "seed": 33, "topic": "observation", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0163", "seed": 33, "topic": "observation", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0164", "seed": 33, "topic": "observation", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0165", "seed": 33, "topic": "observation", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0166", "seed": 34, "topic": "observation", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0167", "seed": 34, "topic": "observation", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0168", "seed": 34, "topic": "observation", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0169", "seed": 34, "topic": "observation", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0170", "seed": 34, "topic": "observation", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0171", "seed": 35, "topic": "observation", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0172", "seed": 35, "topic": "observation", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0173", "seed": 35, "topic": "observation", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0174", "seed": 35, "topic": "observation", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0175", "seed": 35, "topic": "observation", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0176", "seed": 36, "topic": "observation", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0177", "seed": 36, "topic": "observation", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0178", "seed": 36, "topic": "observation", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0179", "seed": 36, "topic": "observation", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0180", "seed": 36, "topic": "observation", "segment": "general", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0181", "seed": 37, "topic": "observation", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0182", "seed": 37, "topic": "observation", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0183", "seed": 37, "topic": "observation", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0184", "seed": 37, "topic": "observation", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0185", "seed": 37, "topic": "observation", "segment": "general", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0186", "seed": 38, "topic": "observation", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0187", "seed": 38, "topic": "observation", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0188", "seed": 38, "topic": "observation", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0189", "seed": 38, "topic": "observation", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0190", "seed": 38, "topic": "observation", "segment": "general", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0191", "seed": 39, "topic": "observation", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0192", "seed": 39, "topic": "observation", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0193", "seed": 39, "topic": "observation", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0194", "seed": 39, "topic": "observation", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0195", "seed": 39, "topic": "observation", "segment": "general", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0196", "seed": 40, "topic": "observation", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0197", "seed": 40, "topic": "observation", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0198", "seed": 40, "topic": "observation", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0199", "seed": 40, "topic": "observation", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0200", "seed": 40, "topic": "observation", "segment": "general", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0201", "seed": 41, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0202", "seed": 41, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0203", "seed": 41, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0204", "seed": 41, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0205", "seed": 41, "topic": "outdoor skill", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0206", "seed": 42, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0207", "seed": 42, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0208", "seed": 42, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0209", "seed": 42, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0210", "seed": 42, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0211", "seed": 43, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0212", "seed": 43, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0213", "seed": 43, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0214", "seed": 43, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0215", "seed": 43, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0216", "seed": 44, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0217", "seed": 44, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0218", "seed": 44, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0219", "seed": 44, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0220", "seed": 44, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0221", "seed": 45, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0222", "seed": 45, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0223", "seed": 45, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0224", "seed": 45, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0225", "seed": 45, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0226", "seed": 46, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0227", "seed": 46, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0228", "seed": 46, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0229", "seed": 46, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0230", "seed": 46, "topic": "outdoor skill", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0231", "seed": 47, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0232", "seed": 47, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0233", "seed": 47, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0234", "seed": 47, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0235", "seed": 47, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0236", "seed": 48, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0237", "seed": 48, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0238", "seed": 48, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0239", "seed": 48, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0240", "seed": 48, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0241", "seed": 49, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0242", "seed": 49, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0243", "seed": 49, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0244", "seed": 49, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0245", "seed": 49, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0246", "seed": 50, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0247", "seed": 50, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0248", "seed": 50, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0249", "seed": 50, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0250", "seed": 50, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0251", "seed": 51, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0252", "seed": 51, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0253", "seed": 51, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0254", "seed": 51, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0255", "seed": 51, "topic": "outdoor skill", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0256", "seed": 52, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0257", "seed": 52, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0258", "seed": 52, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0259", "seed": 52, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0260", "seed": 52, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0261", "seed": 53, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0262", "seed": 53, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0263", "seed": 53, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0264", "seed": 53, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0265", "seed": 53, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0266", "seed": 54, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0267", "seed": 54, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0268", "seed": 54, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0269", "seed": 54, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0270", "seed": 54, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0271", "seed": 55, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0272", "seed": 55, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0273", "seed": 55, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0274", "seed": 55, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0275", "seed": 55, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0276", "seed": 56, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0277", "seed": 56, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0278", "seed": 56, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0279", "seed": 56, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0280", "seed": 56, "topic": "outdoor skill", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0281", "seed": 57, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0282", "seed": 57, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0283", "seed": 57, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0284", "seed": 57, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0285", "seed": 57, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0286", "seed": 58, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0287", "seed": 58, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0288", "seed": 58, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0289", "seed": 58, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0290", "seed": 58, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0291", "seed": 59, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0292", "seed": 59, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0293", "seed": 59, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0294", "seed": 59, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0295", "seed": 59, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0296", "seed": 60, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0297", "seed": 60, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0298", "seed": 60, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0299", "seed": 60, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0300", "seed": 60, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0301", "seed": 61, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0302", "seed": 61, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0303", "seed": 61, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0304", "seed": 61, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0305", "seed": 61, "topic": "outdoor skill", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0306", "seed": 62, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0307", "seed": 62, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0308", "seed": 62, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0309", "seed": 62, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0310", "seed": 62, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0311", "seed": 63, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0312", "seed": 63, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0313", "seed": 63, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0314", "seed": 63, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0315", "seed": 63, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0316", "seed": 64, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0317", "seed": 64, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0318", "seed": 64, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0319", "seed": 64, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0320", "seed": 64, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0321", "seed": 65, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0322", "seed": 65, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0323", "seed": 65, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0324", "seed": 65, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0325", "seed": 65, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0326", "seed": 66, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0327", "seed": 66, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0328", "seed": 66, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0329", "seed": 66, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0330", "seed": 66, "topic": "outdoor skill", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0331", "seed": 67, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0332", "seed": 67, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0333", "seed": 67, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0334", "seed": 67, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0335", "seed": 67, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0336", "seed": 68, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0337", "seed": 68, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0338", "seed": 68, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0339", "seed": 68, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0340", "seed": 68, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0341", "seed": 69, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0342", "seed": 69, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0343", "seed": 69, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0344", "seed": 69, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0345", "seed": 69, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0346", "seed": 70, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0347", "seed": 70, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0348", "seed": 70, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0349", "seed": 70, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0350", "seed": 70, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0351", "seed": 71, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0352", "seed": 71, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0353", "seed": 71, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0354", "seed": 71, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0355", "seed": 71, "topic": "outdoor skill", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0356", "seed": 72, "topic": "outdoor skill", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0357", "seed": 72, "topic": "outdoor skill", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0358", "seed": 72, "topic": "outdoor skill", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0359", "seed": 72, "topic": "outdoor skill", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0360", "seed": 72, "topic": "outdoor skill", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0361", "seed": 73, "topic": "public venue hours", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0362", "seed": 73, "topic": "public venue hours", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0363", "seed": 73, "topic": "public venue hours", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0364", "seed": 73, "topic": "public venue hours", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0365", "seed": 73, "topic": "public venue hours", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0366", "seed": 74, "topic": "public venue hours", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0367", "seed": 74, "topic": "public venue hours", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0368", "seed": 74, "topic": "public venue hours", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0369", "seed": 74, "topic": "public venue hours", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0370", "seed": 74, "topic": "public venue hours", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0371", "seed": 75, "topic": "public venue hours", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0372", "seed": 75, "topic": "public venue hours", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0373", "seed": 75, "topic": "public venue hours", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0374", "seed": 75, "topic": "public venue hours", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0375", "seed": 75, "topic": "public venue hours", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0376", "seed": 76, "topic": "public venue hours", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0377", "seed": 76, "topic": "public venue hours", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0378", "seed": 76, "topic": "public venue hours", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0379", "seed": 76, "topic": "public venue hours", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0380", "seed": 76, "topic": "public venue hours", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0381", "seed": 77, "topic": "public venue access", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0382", "seed": 77, "topic": "public venue access", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0383", "seed": 77, "topic": "public venue access", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0384", "seed": 77, "topic": "public venue access", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0385", "seed": 77, "topic": "public venue access", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0386", "seed": 78, "topic": "public venue access", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0387", "seed": 78, "topic": "public venue access", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0388", "seed": 78, "topic": "public venue access", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0389", "seed": 78, "topic": "public venue access", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0390", "seed": 78, "topic": "public venue access", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0391", "seed": 79, "topic": "public venue fee", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0392", "seed": 79, "topic": "public venue fee", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0393", "seed": 79, "topic": "public venue fee", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0394", "seed": 79, "topic": "public venue fee", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0395", "seed": 79, "topic": "public venue fee", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0396", "seed": 80, "topic": "public venue fee", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0397", "seed": 80, "topic": "public venue fee", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0398", "seed": 80, "topic": "public venue fee", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0399", "seed": 80, "topic": "public venue fee", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0400", "seed": 80, "topic": "public venue fee", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0401", "seed": 81, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0402", "seed": 81, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0403", "seed": 81, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0404", "seed": 81, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0405", "seed": 81, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0406", "seed": 82, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0407", "seed": 82, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0408", "seed": 82, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0409", "seed": 82, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0410", "seed": 82, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0411", "seed": 83, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0412", "seed": 83, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0413", "seed": 83, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0414", "seed": 83, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0415", "seed": 83, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0416", "seed": 84, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0417", "seed": 84, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0418", "seed": 84, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0419", "seed": 84, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0420", "seed": 84, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0421", "seed": 85, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0422", "seed": 85, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0423", "seed": 85, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0424", "seed": 85, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0425", "seed": 85, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0426", "seed": 86, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0427", "seed": 86, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0428", "seed": 86, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0429", "seed": 86, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0430", "seed": 86, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0431", "seed": 87, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0432", "seed": 87, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0433", "seed": 87, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0434", "seed": 87, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0435", "seed": 87, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0436", "seed": 88, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0437", "seed": 88, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0438", "seed": 88, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0439", "seed": 88, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0440", "seed": 88, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0441", "seed": 89, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0442", "seed": 89, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0443", "seed": 89, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0444", "seed": 89, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0445", "seed": 89, "topic": "public event", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0446", "seed": 90, "topic": "public event", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0447", "seed": 90, "topic": "public event", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0448", "seed": 90, "topic": "public event", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0449", "seed": 90, "topic": "public event", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0450", "seed": 90, "topic": "public event", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0451", "seed": 91, "topic": "sports access", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0452", "seed": 91, "topic": "sports access", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0453", "seed": 91, "topic": "sports access", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0454", "seed": 91, "topic": "sports access", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0455", "seed": 91, "topic": "sports access", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0456", "seed": 92, "topic": "sports access", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0457", "seed": 92, "topic": "sports access", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0458", "seed": 92, "topic": "sports access", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0459", "seed": 92, "topic": "sports access", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0460", "seed": 92, "topic": "sports access", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0461", "seed": 93, "topic": "sports access", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0462", "seed": 93, "topic": "sports access", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0463", "seed": 93, "topic": "sports access", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0464", "seed": 93, "topic": "sports access", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0465", "seed": 93, "topic": "sports access", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0466", "seed": 94, "topic": "transport for outing", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0467", "seed": 94, "topic": "transport for outing", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0468", "seed": 94, "topic": "transport for outing", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0469", "seed": 94, "topic": "transport for outing", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0470", "seed": 94, "topic": "transport for outing", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0471", "seed": 95, "topic": "transport for outing", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0472", "seed": 95, "topic": "transport for outing", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0473", "seed": 95, "topic": "transport for outing", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0474", "seed": 95, "topic": "transport for outing", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0475", "seed": 95, "topic": "transport for outing", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0476", "seed": 96, "topic": "transport for outing", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0477", "seed": 96, "topic": "transport for outing", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0478", "seed": 96, "topic": "transport for outing", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0479", "seed": 96, "topic": "transport for outing", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0480", "seed": 96, "topic": "transport for outing", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0481", "seed": 97, "topic": "weather for outing", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0482", "seed": 97, "topic": "weather for outing", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0483", "seed": 97, "topic": "weather for outing", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0484", "seed": 97, "topic": "weather for outing", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0485", "seed": 97, "topic": "weather for outing", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0486", "seed": 98, "topic": "weather for outing", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0487", "seed": 98, "topic": "weather for outing", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0488", "seed": 98, "topic": "weather for outing", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0489", "seed": 98, "topic": "weather for outing", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0490", "seed": 98, "topic": "weather for outing", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0491", "seed": 99, "topic": "weather for outing", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0492", "seed": 99, "topic": "weather for outing", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0493", "seed": 99, "topic": "weather for outing", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0494", "seed": 99, "topic": "weather for outing", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0495", "seed": 99, "topic": "weather for outing", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0496", "seed": 100, "topic": "nature access", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0497", "seed": 100, "topic": "nature access", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0498", "seed": 100, "topic": "nature access", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0499", "seed": 100, "topic": "nature access", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0500", "seed": 100, "topic": "nature access", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0501", "seed": 101, "topic": "nature access", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0502", "seed": 101, "topic": "nature access", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0503", "seed": 101, "topic": "nature access", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0504", "seed": 101, "topic": "nature access", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0505", "seed": 101, "topic": "nature access", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0506", "seed": 102, "topic": "nature access", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0507", "seed": 102, "topic": "nature access", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0508", "seed": 102, "topic": "nature access", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0509", "seed": 102, "topic": "nature access", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0510", "seed": 102, "topic": "nature access", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0511", "seed": 103, "topic": "local availability", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0512", "seed": 103, "topic": "local availability", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0513", "seed": 103, "topic": "local availability", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0514", "seed": 103, "topic": "local availability", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0515", "seed": 103, "topic": "local availability", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0516", "seed": 104, "topic": "local availability", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0517", "seed": 104, "topic": "local availability", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0518", "seed": 104, "topic": "local availability", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0519", "seed": 104, "topic": "local availability", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0520", "seed": 104, "topic": "local availability", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0521", "seed": 105, "topic": "local availability", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0522", "seed": 105, "topic": "local availability", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0523", "seed": 105, "topic": "local availability", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0524", "seed": 105, "topic": "local availability", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0525", "seed": 105, "topic": "local availability", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0526", "seed": 106, "topic": "local availability", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0527", "seed": 106, "topic": "local availability", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0528", "seed": 106, "topic": "local availability", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0529", "seed": 106, "topic": "local availability", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0530", "seed": 106, "topic": "local availability", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0531", "seed": 107, "topic": "recent sports", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0532", "seed": 107, "topic": "recent sports", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0533", "seed": 107, "topic": "recent sports", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0534", "seed": 107, "topic": "recent sports", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0535", "seed": 107, "topic": "recent sports", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0536", "seed": 108, "topic": "recent sports", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0537", "seed": 108, "topic": "recent sports", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0538", "seed": 108, "topic": "recent sports", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0539", "seed": 108, "topic": "recent sports", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0540", "seed": 108, "topic": "recent sports", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0541", "seed": 109, "topic": "recent sports", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0542", "seed": 109, "topic": "recent sports", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0543", "seed": 109, "topic": "recent sports", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0544", "seed": 109, "topic": "recent sports", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0545", "seed": 109, "topic": "recent sports", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0546", "seed": 110, "topic": "recent sports", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0547", "seed": 110, "topic": "recent sports", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0548", "seed": 110, "topic": "recent sports", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0549", "seed": 110, "topic": "recent sports", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0550", "seed": 110, "topic": "recent sports", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0551", "seed": 111, "topic": "current public office", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0552", "seed": 111, "topic": "current public office", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0553", "seed": 111, "topic": "current public office", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0554", "seed": 111, "topic": "current public office", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0555", "seed": 111, "topic": "current public office", "segment": "general", "style": "injection", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0556", "seed": 112, "topic": "current public office", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0557", "seed": 112, "topic": "current public office", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0558", "seed": 112, "topic": "current public office", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0559", "seed": 112, "topic": "current public office", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0560", "seed": 112, "topic": "current public office", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0561", "seed": 113, "topic": "current public office", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0562", "seed": 113, "topic": "current public office", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0563", "seed": 113, "topic": "current public office", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0564", "seed": 113, "topic": "current public office", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0565", "seed": 113, "topic": "current public office", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0566", "seed": 114, "topic": "current public office", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0567", "seed": 114, "topic": "current public office", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0568", "seed": 114, "topic": "current public office", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0569", "seed": 114, "topic": "current public office", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0570", "seed": 114, "topic": "current public office", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0571", "seed": 115, "topic": "current rates", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0572", "seed": 115, "topic": "current rates", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0573", "seed": 115, "topic": "current rates", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0574", "seed": 115, "topic": "current rates", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0575", "seed": 115, "topic": "current rates", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0576", "seed": 116, "topic": "current rates", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0577", "seed": 116, "topic": "current rates", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0578", "seed": 116, "topic": "current rates", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0579", "seed": 116, "topic": "current rates", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0580", "seed": 116, "topic": "current rates", "segment": "general", "style": "injection", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0581", "seed": 117, "topic": "current rates", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0582", "seed": 117, "topic": "current rates", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0583", "seed": 117, "topic": "current rates", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0584", "seed": 117, "topic": "current rates", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0585", "seed": 117, "topic": "current rates", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0586", "seed": 118, "topic": "current rates", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0587", "seed": 118, "topic": "current rates", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0588", "seed": 118, "topic": "current rates", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0589", "seed": 118, "topic": "current rates", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0590", "seed": 118, "topic": "current rates", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0591", "seed": 119, "topic": "exam deadlines", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0592", "seed": 119, "topic": "exam deadlines", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0593", "seed": 119, "topic": "exam deadlines", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0594", "seed": 119, "topic": "exam deadlines", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0595", "seed": 119, "topic": "exam deadlines", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0596", "seed": 120, "topic": "exam deadlines", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0597", "seed": 120, "topic": "exam deadlines", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0598", "seed": 120, "topic": "exam deadlines", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0599", "seed": 120, "topic": "exam deadlines", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0600", "seed": 120, "topic": "exam deadlines", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0601", "seed": 121, "topic": "exam deadlines", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0602", "seed": 121, "topic": "exam deadlines", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0603", "seed": 121, "topic": "exam deadlines", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0604", "seed": 121, "topic": "exam deadlines", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0605", "seed": 121, "topic": "exam deadlines", "segment": "general", "style": "injection", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0606", "seed": 122, "topic": "exam deadlines", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0607", "seed": 122, "topic": "exam deadlines", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0608", "seed": 122, "topic": "exam deadlines", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0609", "seed": 122, "topic": "exam deadlines", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0610", "seed": 122, "topic": "exam deadlines", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0611", "seed": 123, "topic": "weather fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0612", "seed": 123, "topic": "weather fact", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0613", "seed": 123, "topic": "weather fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0614", "seed": 123, "topic": "weather fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0615", "seed": 123, "topic": "weather fact", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0616", "seed": 124, "topic": "weather fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0617", "seed": 124, "topic": "weather fact", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0618", "seed": 124, "topic": "weather fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0619", "seed": 124, "topic": "weather fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0620", "seed": 124, "topic": "weather fact", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0621", "seed": 125, "topic": "weather fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0622", "seed": 125, "topic": "weather fact", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0623", "seed": 125, "topic": "weather fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0624", "seed": 125, "topic": "weather fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0625", "seed": 125, "topic": "weather fact", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0626", "seed": 126, "topic": "weather fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0627", "seed": 126, "topic": "weather fact", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0628", "seed": 126, "topic": "weather fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0629", "seed": 126, "topic": "weather fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0630", "seed": 126, "topic": "weather fact", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0631", "seed": 127, "topic": "transit fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0632", "seed": 127, "topic": "transit fact", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0633", "seed": 127, "topic": "transit fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0634", "seed": 127, "topic": "transit fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0635", "seed": 127, "topic": "transit fact", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0636", "seed": 128, "topic": "transit fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0637", "seed": 128, "topic": "transit fact", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0638", "seed": 128, "topic": "transit fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0639", "seed": 128, "topic": "transit fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0640", "seed": 128, "topic": "transit fact", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0641", "seed": 129, "topic": "transit fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0642", "seed": 129, "topic": "transit fact", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0643", "seed": 129, "topic": "transit fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0644", "seed": 129, "topic": "transit fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0645", "seed": 129, "topic": "transit fact", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0646", "seed": 130, "topic": "public policy fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0647", "seed": 130, "topic": "public policy fact", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0648", "seed": 130, "topic": "public policy fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0649", "seed": 130, "topic": "public policy fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0650", "seed": 130, "topic": "public policy fact", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0651", "seed": 131, "topic": "public policy fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0652", "seed": 131, "topic": "public policy fact", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0653", "seed": 131, "topic": "public policy fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0654", "seed": 131, "topic": "public policy fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0655", "seed": 131, "topic": "public policy fact", "segment": "general", "style": "injection", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0656", "seed": 132, "topic": "public policy fact", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0657", "seed": 132, "topic": "public policy fact", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0658", "seed": 132, "topic": "public policy fact", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0659", "seed": 132, "topic": "public policy fact", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0660", "seed": 132, "topic": "public policy fact", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0661", "seed": 133, "topic": "tech current", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0662", "seed": 133, "topic": "tech current", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0663", "seed": 133, "topic": "tech current", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0664", "seed": 133, "topic": "tech current", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0665", "seed": 133, "topic": "tech current", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0666", "seed": 134, "topic": "tech current", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0667", "seed": 134, "topic": "tech current", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0668", "seed": 134, "topic": "tech current", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0669", "seed": 134, "topic": "tech current", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0670", "seed": 134, "topic": "tech current", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0671", "seed": 135, "topic": "tech current", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0672", "seed": 135, "topic": "tech current", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0673", "seed": 135, "topic": "tech current", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0674", "seed": 135, "topic": "tech current", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0675", "seed": 135, "topic": "tech current", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0676", "seed": 136, "topic": "culture factual", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0677", "seed": 136, "topic": "culture factual", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0678", "seed": 136, "topic": "culture factual", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0679", "seed": 136, "topic": "culture factual", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0680", "seed": 136, "topic": "culture factual", "segment": "general", "style": "injection", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0681", "seed": 137, "topic": "culture factual", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0682", "seed": 137, "topic": "culture factual", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0683", "seed": 137, "topic": "culture factual", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0684", "seed": 137, "topic": "culture factual", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0685", "seed": 137, "topic": "culture factual", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0686", "seed": 138, "topic": "culture factual", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0687", "seed": 138, "topic": "culture factual", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0688", "seed": 138, "topic": "culture factual", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0689", "seed": 138, "topic": "culture factual", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0690", "seed": 138, "topic": "culture factual", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0691", "seed": 139, "topic": "market habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0692", "seed": 139, "topic": "market habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0693", "seed": 139, "topic": "market habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0694", "seed": 139, "topic": "market habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0695", "seed": 139, "topic": "market habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0696", "seed": 140, "topic": "market habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0697", "seed": 140, "topic": "market habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0698", "seed": 140, "topic": "market habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0699", "seed": 140, "topic": "market habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0700", "seed": 140, "topic": "market habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0701", "seed": 141, "topic": "market habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0702", "seed": 141, "topic": "market habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0703", "seed": 141, "topic": "market habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0704", "seed": 141, "topic": "market habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0705", "seed": 141, "topic": "market habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0706", "seed": 142, "topic": "market habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0707", "seed": 142, "topic": "market habits", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0708", "seed": 142, "topic": "market habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0709", "seed": 142, "topic": "market habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0710", "seed": 142, "topic": "market habits", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0711", "seed": 143, "topic": "market habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0712", "seed": 143, "topic": "market habits", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0713", "seed": 143, "topic": "market habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0714", "seed": 143, "topic": "market habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0715", "seed": 143, "topic": "market habits", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0716", "seed": 144, "topic": "food habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0717", "seed": 144, "topic": "food habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0718", "seed": 144, "topic": "food habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0719", "seed": 144, "topic": "food habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0720", "seed": 144, "topic": "food habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0721", "seed": 145, "topic": "food habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0722", "seed": 145, "topic": "food habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0723", "seed": 145, "topic": "food habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0724", "seed": 145, "topic": "food habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0725", "seed": 145, "topic": "food habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0726", "seed": 146, "topic": "food habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0727", "seed": 146, "topic": "food habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0728", "seed": 146, "topic": "food habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0729", "seed": 146, "topic": "food habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0730", "seed": 146, "topic": "food habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0731", "seed": 147, "topic": "food habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0732", "seed": 147, "topic": "food habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0733", "seed": 147, "topic": "food habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0734", "seed": 147, "topic": "food habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0735", "seed": 147, "topic": "food habits", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0736", "seed": 148, "topic": "food habits", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0737", "seed": 148, "topic": "food habits", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0738", "seed": 148, "topic": "food habits", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0739", "seed": 148, "topic": "food habits", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0740", "seed": 148, "topic": "food habits", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0741", "seed": 149, "topic": "sports norms", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0742", "seed": 149, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0743", "seed": 149, "topic": "sports norms", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0744", "seed": 149, "topic": "sports norms", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0745", "seed": 149, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0746", "seed": 150, "topic": "sports norms", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0747", "seed": 150, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0748", "seed": 150, "topic": "sports norms", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0749", "seed": 150, "topic": "sports norms", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0750", "seed": 150, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0751", "seed": 151, "topic": "sports norms", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0752", "seed": 151, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0753", "seed": 151, "topic": "sports norms", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0754", "seed": 151, "topic": "sports norms", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0755", "seed": 151, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0756", "seed": 152, "topic": "sports norms", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0757", "seed": 152, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0758", "seed": 152, "topic": "sports norms", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0759", "seed": 152, "topic": "sports norms", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0760", "seed": 152, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0761", "seed": 153, "topic": "sports norms", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0762", "seed": 153, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0763", "seed": 153, "topic": "sports norms", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0764", "seed": 153, "topic": "sports norms", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0765", "seed": 153, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0766", "seed": 154, "topic": "sports norms", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0767", "seed": 154, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0768", "seed": 154, "topic": "sports norms", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0769", "seed": 154, "topic": "sports norms", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0770", "seed": 154, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0771", "seed": 155, "topic": "sports norms", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0772", "seed": 155, "topic": "sports norms", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0773", "seed": 155, "topic": "sports norms", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0774", "seed": 155, "topic": "sports norms", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0775", "seed": 155, "topic": "sports norms", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0776", "seed": 156, "topic": "sports norms", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0777", "seed": 156, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0778", "seed": 156, "topic": "sports norms", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0779", "seed": 156, "topic": "sports norms", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0780", "seed": 156, "topic": "sports norms", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0781", "seed": 157, "topic": "campus life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0782", "seed": 157, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0783", "seed": 157, "topic": "campus life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0784", "seed": 157, "topic": "campus life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0785", "seed": 157, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0786", "seed": 158, "topic": "campus life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0787", "seed": 158, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0788", "seed": 158, "topic": "campus life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0789", "seed": 158, "topic": "campus life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0790", "seed": 158, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0791", "seed": 159, "topic": "campus life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0792", "seed": 159, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0793", "seed": 159, "topic": "campus life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0794", "seed": 159, "topic": "campus life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0795", "seed": 159, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0796", "seed": 160, "topic": "campus life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0797", "seed": 160, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0798", "seed": 160, "topic": "campus life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0799", "seed": 160, "topic": "campus life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0800", "seed": 160, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0801", "seed": 161, "topic": "campus life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0802", "seed": 161, "topic": "campus life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0803", "seed": 161, "topic": "campus life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0804", "seed": 161, "topic": "campus life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0805", "seed": 161, "topic": "campus life", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0806", "seed": 162, "topic": "campus life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0807", "seed": 162, "topic": "campus life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0808", "seed": 162, "topic": "campus life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0809", "seed": 162, "topic": "campus life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0810", "seed": 162, "topic": "campus life", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0811", "seed": 163, "topic": "campus life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0812", "seed": 163, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0813", "seed": 163, "topic": "campus life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0814", "seed": 163, "topic": "campus life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0815", "seed": 163, "topic": "campus life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0816", "seed": 164, "topic": "campus life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0817", "seed": 164, "topic": "campus life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0818", "seed": 164, "topic": "campus life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0819", "seed": 164, "topic": "campus life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0820", "seed": 164, "topic": "campus life", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0821", "seed": 165, "topic": "community groups", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0822", "seed": 165, "topic": "community groups", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0823", "seed": 165, "topic": "community groups", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0824", "seed": 165, "topic": "community groups", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0825", "seed": 165, "topic": "community groups", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0826", "seed": 166, "topic": "community groups", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0827", "seed": 166, "topic": "community groups", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0828", "seed": 166, "topic": "community groups", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0829", "seed": 166, "topic": "community groups", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0830", "seed": 166, "topic": "community groups", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0831", "seed": 167, "topic": "community groups", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0832", "seed": 167, "topic": "community groups", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0833", "seed": 167, "topic": "community groups", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0834", "seed": 167, "topic": "community groups", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0835", "seed": 167, "topic": "community groups", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0836", "seed": 168, "topic": "community groups", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0837", "seed": 168, "topic": "community groups", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0838", "seed": 168, "topic": "community groups", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0839", "seed": 168, "topic": "community groups", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0840", "seed": 168, "topic": "community groups", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0841", "seed": 169, "topic": "community groups", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0842", "seed": 169, "topic": "community groups", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0843", "seed": 169, "topic": "community groups", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0844", "seed": 169, "topic": "community groups", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0845", "seed": 169, "topic": "community groups", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0846", "seed": 170, "topic": "community groups", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0847", "seed": 170, "topic": "community groups", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0848", "seed": 170, "topic": "community groups", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0849", "seed": 170, "topic": "community groups", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0850", "seed": 170, "topic": "community groups", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0851", "seed": 171, "topic": "community groups", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0852", "seed": 171, "topic": "community groups", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0853", "seed": 171, "topic": "community groups", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0854", "seed": 171, "topic": "community groups", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0855", "seed": 171, "topic": "community groups", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0856", "seed": 172, "topic": "community groups", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0857", "seed": 172, "topic": "community groups", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0858", "seed": 172, "topic": "community groups", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0859", "seed": 172, "topic": "community groups", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0860", "seed": 172, "topic": "community groups", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0861", "seed": 173, "topic": "neighborhood life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0862", "seed": 173, "topic": "neighborhood life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0863", "seed": 173, "topic": "neighborhood life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0864", "seed": 173, "topic": "neighborhood life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0865", "seed": 173, "topic": "neighborhood life", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0866", "seed": 174, "topic": "neighborhood life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0867", "seed": 174, "topic": "neighborhood life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0868", "seed": 174, "topic": "neighborhood life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0869", "seed": 174, "topic": "neighborhood life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0870", "seed": 174, "topic": "neighborhood life", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0871", "seed": 175, "topic": "neighborhood life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0872", "seed": 175, "topic": "neighborhood life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0873", "seed": 175, "topic": "neighborhood life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0874", "seed": 175, "topic": "neighborhood life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0875", "seed": 175, "topic": "neighborhood life", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0876", "seed": 176, "topic": "neighborhood life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0877", "seed": 176, "topic": "neighborhood life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0878", "seed": 176, "topic": "neighborhood life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0879", "seed": 176, "topic": "neighborhood life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0880", "seed": 176, "topic": "neighborhood life", "segment": "field", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0881", "seed": 177, "topic": "neighborhood life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0882", "seed": 177, "topic": "neighborhood life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0883", "seed": 177, "topic": "neighborhood life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0884", "seed": 177, "topic": "neighborhood life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0885", "seed": 177, "topic": "neighborhood life", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0886", "seed": 178, "topic": "neighborhood life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0887", "seed": 178, "topic": "neighborhood life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0888", "seed": 178, "topic": "neighborhood life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0889", "seed": 178, "topic": "neighborhood life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0890", "seed": 178, "topic": "neighborhood life", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0891", "seed": 179, "topic": "neighborhood life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0892", "seed": 179, "topic": "neighborhood life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0893", "seed": 179, "topic": "neighborhood life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0894", "seed": 179, "topic": "neighborhood life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0895", "seed": 179, "topic": "neighborhood life", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0896", "seed": 180, "topic": "neighborhood life", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0897", "seed": 180, "topic": "neighborhood life", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0898", "seed": 180, "topic": "neighborhood life", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0899", "seed": 180, "topic": "neighborhood life", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0900", "seed": 180, "topic": "neighborhood life", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0901", "seed": 181, "topic": "local services", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0902", "seed": 181, "topic": "local services", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0903", "seed": 181, "topic": "local services", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0904", "seed": 181, "topic": "local services", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0905", "seed": 181, "topic": "local services", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0906", "seed": 182, "topic": "local services", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0907", "seed": 182, "topic": "local services", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0908", "seed": 182, "topic": "local services", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0909", "seed": 182, "topic": "local services", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0910", "seed": 182, "topic": "local services", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0911", "seed": 183, "topic": "local services", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0912", "seed": 183, "topic": "local services", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0913", "seed": 183, "topic": "local services", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0914", "seed": 183, "topic": "local services", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0915", "seed": 183, "topic": "local services", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0916", "seed": 184, "topic": "local services", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0917", "seed": 184, "topic": "local services", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0918", "seed": 184, "topic": "local services", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0919", "seed": 184, "topic": "local services", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0920", "seed": 184, "topic": "local services", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0921", "seed": 185, "topic": "local services", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0922", "seed": 185, "topic": "local services", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0923", "seed": 185, "topic": "local services", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0924", "seed": 185, "topic": "local services", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0925", "seed": 185, "topic": "local services", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0926", "seed": 186, "topic": "local services", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0927", "seed": 186, "topic": "local services", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0928", "seed": 186, "topic": "local services", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0929", "seed": 186, "topic": "local services", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0930", "seed": 186, "topic": "local services", "segment": "field", "style": "injection", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0931", "seed": 187, "topic": "local services", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0932", "seed": 187, "topic": "local services", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0933", "seed": 187, "topic": "local services", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0934", "seed": 187, "topic": "local services", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0935", "seed": 187, "topic": "local services", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0936", "seed": 188, "topic": "local services", "segment": "field", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0937", "seed": 188, "topic": "local services", "segment": "field", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0938", "seed": 188, "topic": "local services", "segment": "field", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0939", "seed": 188, "topic": "local services", "segment": "field", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0940", "seed": 188, "topic": "local services", "segment": "field", "style": "tell-me", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0941", "seed": 189, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0942", "seed": 189, "topic": "personal experience", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0943", "seed": 189, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0944", "seed": 189, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0945", "seed": 189, "topic": "personal experience", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0946", "seed": 190, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0947", "seed": 190, "topic": "personal experience", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0948", "seed": 190, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0949", "seed": 190, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0950", "seed": 190, "topic": "personal experience", "segment": "general", "style": "hinglish", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0951", "seed": 191, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0952", "seed": 191, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0953", "seed": 191, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0954", "seed": 191, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0955", "seed": 191, "topic": "personal experience", "segment": "general", "style": "injection", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0956", "seed": 192, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0957", "seed": 192, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0958", "seed": 192, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0959", "seed": 192, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0960", "seed": 192, "topic": "personal experience", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0961", "seed": 193, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0962", "seed": 193, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0963", "seed": 193, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0964", "seed": 193, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0965", "seed": 193, "topic": "personal experience", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0966", "seed": 194, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0967", "seed": 194, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0968", "seed": 194, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0969", "seed": 194, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0970", "seed": 194, "topic": "personal experience", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0971", "seed": 195, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0972", "seed": 195, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0973", "seed": 195, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0974", "seed": 195, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0975", "seed": 195, "topic": "personal experience", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0976", "seed": 196, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0977", "seed": 196, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0978", "seed": 196, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0979", "seed": 196, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0980", "seed": 196, "topic": "personal experience", "segment": "general", "style": "injection", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0981", "seed": 197, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0982", "seed": 197, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0983", "seed": 197, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0984", "seed": 197, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0985", "seed": 197, "topic": "personal experience", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0986", "seed": 198, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0987", "seed": 198, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0988", "seed": 198, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0989", "seed": 198, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0990", "seed": 198, "topic": "personal experience", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0991", "seed": 199, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0992", "seed": 199, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0993", "seed": 199, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0994", "seed": 199, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0995", "seed": 199, "topic": "personal experience", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0996", "seed": 200, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0997", "seed": 200, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0998", "seed": 200, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-0999", "seed": 200, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1000", "seed": 200, "topic": "personal experience", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1001", "seed": 201, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1002", "seed": 201, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1003", "seed": 201, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1004", "seed": 201, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1005", "seed": 201, "topic": "personal experience", "segment": "general", "style": "injection", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1006", "seed": 202, "topic": "personal experience", "segment": "general", "style": "normal", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1007", "seed": 202, "topic": "personal experience", "segment": "general", "style": "rephrased", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1008", "seed": 202, "topic": "personal experience", "segment": "general", "style": "short", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1009", "seed": 202, "topic": "personal experience", "segment": "general", "style": "contextual", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1010", "seed": 202, "topic": "personal experience", "segment": "general", "style": "tell-me", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1011", "seed": "context-pair-1", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1012", "seed": "context-pair-1", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1013", "seed": "context-pair-2", "topic": "context contrast", "segment": "general", "style": "context-pair", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1014", "seed": "context-pair-2", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1015", "seed": "context-pair-3", "topic": "context contrast", "segment": "general", "style": "context-pair", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1016", "seed": "context-pair-3", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1017", "seed": "context-pair-4", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1018", "seed": "context-pair-4", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1019", "seed": "context-pair-5", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1020", "seed": "context-pair-5", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1021", "seed": "context-pair-6", "topic": "context contrast", "segment": "general", "style": "context-pair", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1022", "seed": "context-pair-6", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1023", "seed": "context-pair-7", "topic": "context contrast", "segment": "general", "style": "context-pair", "action": "none", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1024", "seed": "context-pair-7", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1025", "seed": "context-pair-8", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1026", "seed": "context-pair-8", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1027", "seed": "context-pair-9", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1028", "seed": "context-pair-9", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1029", "seed": "context-pair-10", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1030", "seed": "context-pair-10", "topic": "context contrast", "segment": "field", "style": "context-pair", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1031", "seed": 203, "topic": "weather science", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1032", "seed": 203, "topic": "weather science", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1033", "seed": 203, "topic": "weather science", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1034", "seed": 203, "topic": "weather science", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1035", "seed": 203, "topic": "weather science", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1036", "seed": 204, "topic": "physics", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1037", "seed": 204, "topic": "physics", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1038", "seed": 204, "topic": "physics", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1039", "seed": 204, "topic": "physics", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1040", "seed": 204, "topic": "physics", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1041", "seed": 205, "topic": "finance concept", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1042", "seed": 205, "topic": "finance concept", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1043", "seed": 205, "topic": "finance concept", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1044", "seed": 205, "topic": "finance concept", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1045", "seed": 205, "topic": "finance concept", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1046", "seed": 206, "topic": "plant science", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1047", "seed": 206, "topic": "plant science", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1048", "seed": 206, "topic": "plant science", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1049", "seed": 206, "topic": "plant science", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1050", "seed": 206, "topic": "plant science", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1051", "seed": 207, "topic": "everyday skill", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1052", "seed": 207, "topic": "everyday skill", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1053", "seed": 207, "topic": "everyday skill", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1054", "seed": 207, "topic": "everyday skill", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1055", "seed": 207, "topic": "everyday skill", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1056", "seed": 208, "topic": "physics", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1057", "seed": 208, "topic": "physics", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1058", "seed": 208, "topic": "physics", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1059", "seed": 208, "topic": "physics", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1060", "seed": 208, "topic": "physics", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1061", "seed": 209, "topic": "astronomy", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1062", "seed": 209, "topic": "astronomy", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1063", "seed": 209, "topic": "astronomy", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1064", "seed": 209, "topic": "astronomy", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1065", "seed": 209, "topic": "astronomy", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1066", "seed": 210, "topic": "nature knowledge", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1067", "seed": 210, "topic": "nature knowledge", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1068", "seed": 210, "topic": "nature knowledge", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1069", "seed": 210, "topic": "nature knowledge", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1070", "seed": 210, "topic": "nature knowledge", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1071", "seed": 211, "topic": "technology", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1072", "seed": 211, "topic": "technology", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1073", "seed": 211, "topic": "technology", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1074", "seed": 211, "topic": "technology", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1075", "seed": 211, "topic": "technology", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1076", "seed": 212, "topic": "measurement", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1077", "seed": 212, "topic": "measurement", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1078", "seed": 212, "topic": "measurement", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1079", "seed": 212, "topic": "measurement", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1080", "seed": 212, "topic": "measurement", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1081", "seed": 213, "topic": "astronomy event", "segment": "general", "style": "normal", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1082", "seed": 213, "topic": "astronomy event", "segment": "general", "style": "hinglish", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1083", "seed": 213, "topic": "astronomy event", "segment": "general", "style": "short", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1084", "seed": 213, "topic": "astronomy event", "segment": "general", "style": "contextual", "action": "step", "review_status": "reviewed_ai_assisted"}
+{"id": "v2-1085", "seed": 213, "topic": "astronomy event", "segment": "general", "style": "rephrased", "action": "step", "review_status": "reviewed_ai_assisted"}
