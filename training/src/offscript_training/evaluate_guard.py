@@ -34,8 +34,20 @@ VERDICTS = ("ok", "needs_detail", "two_questions")
 
 
 def load_rows(path: Path) -> list[dict]:
+    """Guard rows with an `expected` verdict. Files that use `expected_state` (the v2 guard bank)
+    are accepted too; their safety_guidance and refusal rows are skipped, because the backend
+    safety rules stop those before the guard runs (tested in api/tests/unit/test_safety_bank.py)."""
     refuse_sealed(path)
-    rows = [json.loads(line) for line in Path(path).read_text("utf-8").splitlines() if line.strip()]
+    rows = []
+    for line in Path(path).read_text("utf-8").splitlines():
+        if not line.strip():
+            continue
+        row = json.loads(line)
+        if "expected" not in row:
+            if row.get("expected_state") not in VERDICTS:
+                continue
+            row["expected"] = row["expected_state"]
+        rows.append(row)
     for row in rows:
         if row["expected"] not in VERDICTS:
             raise SystemExit(f"{path}: {row['id']} has unknown expected verdict {row['expected']}")

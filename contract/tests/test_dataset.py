@@ -137,3 +137,14 @@ def test_sealed_rows_hold_question_and_route_only(tmp_path):
     sealed.write_text(json.dumps(SEALED) + "\n")
     report = validate_dataset(sealed)
     assert report.errors == [] and report.counts == {"SEARCH/outdoor": 1}
+
+
+def test_sealed_rows_may_say_whether_a_step_is_expected(tmp_path):
+    from offscript_contract.dataset import SealedExample
+
+    row = {"id": "t2-001", "question": "Why does the sea look blue?", "context": "",
+           "route": "AI", "kind": "general"}  # fmt: skip
+    assert SealedExample.model_validate(row).expects_action is None  # v1 rows stay valid
+    assert SealedExample.model_validate({**row, "expects_action": True}).expects_action is True
+    with pytest.raises(ValueError):
+        SealedExample.model_validate({**row, "expects_action": "maybe"})
