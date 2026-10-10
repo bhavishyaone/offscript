@@ -133,3 +133,70 @@ def test_train_config_never_expires_real_checkpoints(tmp_path, monkeypatch):
     assert dry.ttl_seconds and dry.max_steps == 2
     with pytest.raises(SystemExit):
         train.build_config("bad", SEALED_FILE, dict(train.DEFAULTS), None)
+
+
+def test_v2_family_split_never_puts_a_family_on_both_sides():
+    from offscript_training.data import V2_TRAIN_FILE, family_split, load_v2_metadata
+
+    examples, metadata = load_train(V2_TRAIN_FILE), load_v2_metadata()
+    train_rows, validation = family_split(examples, metadata, 0.1, 0)
+    family = lambda rows: {str(metadata[e.id]["seed"]) for e in rows}  # noqa: E731
+    assert family(train_rows).isdisjoint(family(validation))
+    assert len(train_rows) + len(validation) == len(examples)
+    assert 0.07 < len(family(validation)) / len(family(examples)) < 0.13
+    again = family_split(examples, metadata, 0.1, 0)
+    assert [e.id for e in again[1]] == [e.id for e in validation]  # deterministic
+
+
+def test_v2_run_uses_the_v2_prompt_and_puts_validation_first(tmp_path, monkeypatch):
+    from offscript_contract.router import FROZEN_ROUTER_PROMPT_V2_VERSION, load_system_prompt
+    from offscript_training import train
+
+    monkeypatch.setattr(train, "RUNS", tmp_path)
+    run_dir, config = train.build_config(
+        "v2", train.V2_TRAIN_FILE, dict(train.DEFAULTS), None, dataset="v2"
+    )
+    record = json.loads((run_dir / "run_config.json").read_text())
+    assert record["router_prompt_version"] == FROZEN_ROUTER_PROMPT_V2_VERSION
+    validation_ids = json.loads((run_dir / "split.json").read_text())["validation_ids"]
+    assert record["held_out_rows"] == len(validation_ids) > 0
+    lines = (run_dir / "train_conversations.jsonl").read_text().splitlines()
+    assert len(lines) == record["train_rows"] == 1085
+    first = json.loads(lines[0])["messages"]
+    assert first[0]["content"] == load_system_prompt("router_system_v2")
+    assert config.dataset_builder.test_size == len(validation_ids)
+    assert config.dataset_builder.shuffle_seed is None
+
+
+def test_step_metrics_count_missed_and_false_steps():
+    def row(id_, kind, expects, action):
+        reply = {**json.loads(AI), "outdoor_action": action}
+        return {**record("AI", "AI", kind=kind, reply=reply, id_=id_), "expects_action": expects}
+
+    metrics = compute([
+        row("a", "outdoor", True, "Try it."),
+        row("b", "outdoor", True, None),
+        row("c", "general", False, None),
+        row("d", "general", False, "Take a walk."),
+        row("e", "general", False, None),
+    ])  # fmt: skip
+    steps = metrics["steps"]["all"]
+    assert (steps["missed_steps"], steps["expected_step"], steps["missed_step_ids"]) == (
+        1,
+        2,
+        ["b"],
+    )
+    assert (steps["false_steps"], steps["expected_none"], steps["false_step_ids"]) == (1, 3, ["d"])
+    assert metrics["steps"]["by_kind"]["general"]["false_step_rate"] == 0.333
+    text_metrics = {**metrics, "model": "m", "data": "training/data/test_sealed_v2.jsonl",
+                    "router_prompt_version": "v", "sampling": {"temperature": 0.0}}  # fmt: skip
+    text = render(text_metrics, text_metrics)
+    assert "| False steps (no step was expected) | 1/3 (33%) | 1/3 (33%) |" in text
+    assert "v2 sealed set was written" in text
+    assert "steps" not in compute([record("AI", "AI", reply=json.loads(AI))])  # v1 sets
+
+
+def test_repo_v2_data_passes_its_check():
+    from offscript_training.data import check_v2
+
+    assert check_v2() == []
