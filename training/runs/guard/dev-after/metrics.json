@@ -1,0 +1,42 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "data": "training/data/guard_dev.jsonl",
+  "guard_prompt_version": "924793c432cd",
+  "sampling": {
+    "temperature": 0.0,
+    "max_tokens": 100
+  },
+  "evaluated_at": "2026-10-10T09:26:18+00:00",
+  "questions": 190,
+  "passed_good": 165,
+  "good_questions": 176,
+  "wrongly_stopped_ids": [
+    "gd080",
+    "gd082",
+    "gd083",
+    "gd096",
+    "gd103",
+    "gd106",
+    "gd108",
+    "gd125",
+    "gd161",
+    "gd192",
+    "gd199"
+  ],
+  "caught": 14,
+  "should_stop": 14,
+  "missed_ids": [],
+  "invalid": 0,
+  "confusion": {
+    "ok": {
+      "ok": 165,
+      "needs_detail": 11
+    },
+    "needs_detail": {
+      "needs_detail": 10
+    },
+    "two_questions": {
+      "two_questions": 4
+    }
+  }
+}

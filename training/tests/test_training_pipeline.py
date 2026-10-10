@@ -98,6 +98,29 @@ def test_report_renders_both_models():
     assert "| Invalid outputs | 1 | 0 |" in text
 
 
+def test_guard_metrics_count_wrong_stops_and_misses():
+    from offscript_training.evaluate_guard import compute, load_rows
+
+    def guard(id_, expected, verdict, error=None):
+        return {"id": id_, "expected": expected, "verdict": verdict, "error": error}
+
+    metrics = compute([
+        guard("a", "ok", "ok"),
+        guard("b", "ok", "needs_detail"),
+        guard("c", "needs_detail", "needs_detail"),
+        guard("d", "two_questions", "ok"),
+        guard("e", "ok", None, error="not_json"),
+    ])  # fmt: skip
+    assert (metrics["passed_good"], metrics["good_questions"]) == (1, 3)
+    assert metrics["wrongly_stopped_ids"] == ["b", "e"]
+    assert (metrics["caught"], metrics["should_stop"], metrics["missed_ids"]) == (1, 2, ["d"])
+    assert metrics["invalid"] == 1
+    for path in ("training/data/guard_dev.jsonl", "training/data/guard_check.jsonl"):
+        assert load_rows(Path(path))
+    with pytest.raises(SystemExit):
+        load_rows(SEALED_FILE)
+
+
 def test_train_config_never_expires_real_checkpoints(tmp_path, monkeypatch):
     from offscript_training import train
 

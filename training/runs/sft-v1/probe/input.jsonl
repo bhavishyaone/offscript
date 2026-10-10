@@ -1,0 +1,20 @@
+{"id": "P01", "question": "Tell me about the student culture in EDVPU College Pune.", "context": null, "route": "HUMAN", "note": "named place + lived experience"}
+{"id": "P02", "question": "What is hostel life really like at IIT Bombay?", "context": null, "route": "HUMAN", "note": "named place + lived experience"}
+{"id": "P03", "question": "How do people at Marine Drive usually spend their evenings?", "context": null, "route": "HUMAN", "note": "named place + local habit"}
+{"id": "P04", "question": "Which chai stall do locals in Lodhi Colony actually prefer?", "context": "Delhi", "route": "HUMAN", "note": "named place + local preference"}
+{"id": "P05", "question": "best time to visit lalbagh", "context": null, "route": "SEARCH", "note": "short query style"}
+{"id": "P06", "question": "how to tie a bowline knot", "context": null, "route": "AI", "note": "short query style"}
+{"id": "P07", "question": "is cubbon park open on monday", "context": null, "route": "SEARCH", "note": "short query style"}
+{"id": "P08", "question": "Why is the sky blue?", "context": null, "route": "AI", "note": "general knowledge"}
+{"id": "P09", "question": "What is the current repo rate in India?", "context": null, "route": "SEARCH", "note": "general live fact"}
+{"id": "P10", "question": "How do I write a good cover letter?", "context": null, "route": "AI", "note": "general know-how, nothing outdoors"}
+{"id": "P11", "question": "What's the price of the iPhone 16 in India now?", "context": null, "route": "SEARCH", "note": "general live fact"}
+{"id": "P12", "question": "What are the rules of Kho-Kho?", "context": null, "route": "AI", "note": "niche cultural fact (watch accuracy)"}
+{"id": "P13", "question": "What do people eat during Pongal?", "context": null, "route": "AI", "note": "niche cultural fact (watch accuracy)"}
+{"id": "P14", "question": "How do I join a pickup cricket game?", "context": "I'm standing at the maidan where a game is on", "route": "HUMAN", "note": "context makes it local"}
+{"id": "P15", "question": "What do regulars order here?", "context": "at Vaishali restaurant, FC Road, Pune", "route": "HUMAN", "note": "place only in context"}
+{"id": "P16", "question": "How do the kids in my society decide who bats first in gully cricket?", "context": "I want to help my nephew join", "route": "HUMAN", "note": "children present -> adult"}
+{"id": "P17", "question": "Which is the best-rated trek near Pune for beginners?", "context": null, "route": "SEARCH", "note": "subjective wording but public ranking"}
+{"id": "P18", "question": "What year was the Gateway of India built?", "context": null, "route": "AI", "note": "stable fact"}
+{"id": "P19", "question": "Sarojini Nagar market mein bargaining kaise karte hain?", "context": null, "route": "HUMAN", "note": "Hinglish; local practice"}
+{"id": "P20", "question": "Kal Pune mein barish hogi kya?", "context": null, "route": "SEARCH", "note": "Hinglish; live weather"}

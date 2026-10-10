@@ -1,5 +1,5 @@
 .DEFAULT_GOAL := help
-.PHONY: help install dev dev-api dev-web health smoke-test check-data baseline train evaluate report test test-live test-py test-web lint format
+.PHONY: help install dev dev-api dev-web health smoke-test check-data baseline train evaluate report evaluate-guard test test-live test-py test-web lint format
 
 API_PORT ?= 8000
 
@@ -43,6 +43,10 @@ evaluate: ## Tuned model on the sealed set (MODEL_PATH=tinker://...) → trainin
 
 report: ## Base vs tuned comparison → training/runs/REPORT.md
 	uv run python -m offscript_training.report training/runs/baseline training/runs/$(RUN)/eval > training/runs/REPORT.md
+
+evaluate-guard: ## Guard check on the dev and held-out guard sets → training/runs/guard/$(RUN) (costs cents)
+	$(TRAIN_ENV).evaluate_guard --data training/data/guard_dev.jsonl --out training/runs/guard/$(RUN)/dev
+	$(TRAIN_ENV).evaluate_guard --data training/data/guard_check.jsonl --out training/runs/guard/$(RUN)/check
 
 test: test-py test-web ## Run all tests
 
