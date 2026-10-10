@@ -1824,6 +1824,7 @@ dependencies = [
     { name = "httpx" },
     { name = "offscript-contract" },
     { name = "pydantic-settings" },
+    { name = "tinker" },
     { name = "uvicorn", extra = ["standard"] },
 ]
 
@@ -1833,6 +1834,7 @@ requires-dist = [
     { name = "httpx", specifier = ">=0.28" },
     { name = "offscript-contract", editable = "contract" },
     { name = "pydantic-settings", specifier = ">=2.7" },
+    { name = "tinker", specifier = ">=0.33.1" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.32" },
 ]
 

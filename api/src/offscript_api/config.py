@@ -9,7 +9,9 @@ class Settings(BaseSettings):
     """Read from env vars or api/.env. Secrets never leave the backend."""
 
     # hide_input_in_errors: a failed startup must never print the keys into logs.
-    model_config = SettingsConfigDict(env_file=".env", extra="ignore", hide_input_in_errors=True)
+    model_config = SettingsConfigDict(
+        env_file=(".env", "api/.env"), extra="ignore", hide_input_in_errors=True
+    )
 
     offscript_env: Literal["development", "production"] = "development"
     offscript_mode: Literal["live", "mock"] = "live"
@@ -36,6 +38,10 @@ class Settings(BaseSettings):
     @property
     def model_configured(self) -> bool:
         return bool(self.tinker_api_key and self.tinker_model_path)
+
+    @property
+    def serpapi_configured(self) -> bool:
+        return bool(self.serpapi_api_key)
 
 
 @lru_cache

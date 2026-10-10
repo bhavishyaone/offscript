@@ -1,1 +1,3 @@
-"""HTTP routes: health.py (GET /health), route.py (POST /api/route, planned)."""
+from offscript_api.routes import health, route
+
+__all__ = ["health", "route"]
