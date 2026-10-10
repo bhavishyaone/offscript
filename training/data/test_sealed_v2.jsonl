@@ -1,5 +1,5 @@
 {"id": "t2-001", "question": "How do I calculate simple interest on a loan?", "context": "", "route": "AI", "kind": "general", "expects_action": false}
-{"id": "t2-002", "question": "What's the difference between a virus and bacteria?", "context": "", "route": "AI", "kind": "general", "expects_action": false}
+{"id": "t2-002", "question": "How are viruses different from bacteria?", "context": "", "route": "AI", "kind": "general", "expects_action": false}
 {"id": "t2-003", "question": "How do I write a short bio for LinkedIn?", "context": "", "route": "AI", "kind": "general", "expects_action": false}
 {"id": "t2-004", "question": "What does GDP per capita mean?", "context": "", "route": "AI", "kind": "general", "expects_action": false}
 {"id": "t2-005", "question": "How do I convert Celsius to Fahrenheit?", "context": "", "route": "AI", "kind": "general", "expects_action": false}

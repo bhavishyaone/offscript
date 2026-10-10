@@ -65,9 +65,43 @@ def content(records: list[dict]) -> dict:
     }
 
 
+def _step_block(rows: list[dict]) -> dict:
+    wanted = [r for r in rows if r["expects_action"]]
+    unwanted = [r for r in rows if not r["expects_action"]]
+    missed = [r["id"] for r in wanted if r["reply"].get("outdoor_action") is None]
+    extra = [r["id"] for r in unwanted if r["reply"].get("outdoor_action") is not None]
+    return {
+        "expected_step": len(wanted),
+        "missed_steps": len(missed),
+        "missed_step_rate": _rate(len(missed), len(wanted)),
+        "missed_step_ids": missed,
+        "expected_none": len(unwanted),
+        "false_steps": len(extra),
+        "false_step_rate": _rate(len(extra), len(unwanted)),
+        "false_step_ids": extra,
+    }
+
+
+def steps(records: list[dict]) -> dict | None:
+    """Whether the outdoor step appears exactly when the test row expects one (v2 sets only).
+    Only valid replies are scored; invalid ones are counted by routing()."""
+    scored = [r for r in records if r.get("expects_action") is not None and r["reply"]]
+    if not scored:
+        return None
+    by_kind = {
+        kind: _step_block([r for r in scored if r["kind"] == kind])
+        for kind in sorted({r["kind"] for r in scored})
+    }
+    return {"all": _step_block(scored), "by_kind": by_kind}
+
+
 def compute(records: list[dict]) -> dict:
     by_kind = {
         kind: routing([r for r in records if r["kind"] == kind])
         for kind in sorted({r["kind"] for r in records})
     }
-    return {"all": routing(records), "by_kind": by_kind, "content": content(records)}
+    result = {"all": routing(records), "by_kind": by_kind, "content": content(records)}
+    step_metrics = steps(records)
+    if step_metrics is not None:
+        result["steps"] = step_metrics
+    return result

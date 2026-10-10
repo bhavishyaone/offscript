@@ -193,23 +193,33 @@ def prompt_version(name: str) -> str:
     return sha256(load_prompt(name).encode("utf-8")).hexdigest()[:12]
 
 
-def load_system_prompt() -> str:
-    return load_prompt("router_system")
+# The prompt the live app uses; it must match the deployed checkpoint (v1).
+ROUTER_PROMPT = "router_system"
+# The v2 prompt (optional outdoor step), used by v2 training and evaluation. It becomes
+# ROUTER_PROMPT in the same release that points TINKER_MODEL_PATH at the v2 checkpoint.
+ROUTER_PROMPT_V2 = "router_system_v2"
 
 
-def router_prompt_version() -> str:
-    return prompt_version("router_system")
+def load_system_prompt(name: str = ROUTER_PROMPT) -> str:
+    return load_prompt(name)
+
+
+def router_prompt_version(name: str = ROUTER_PROMPT) -> str:
+    return prompt_version(name)
 
 
 # Frozen before the baseline run: the baseline, the training data and the tuned checkpoint all
 # use this exact prompt. Changing it means re-running the baseline and the fine-tuning.
 FROZEN_ROUTER_PROMPT_VERSION = "e018ffbee7cc"
+FROZEN_ROUTER_PROMPT_V2_VERSION = "0fb9c7853868"
 
 
-def build_router_messages(question: str, context: str | None = None) -> list[dict[str, str]]:
+def build_router_messages(
+    question: str, context: str | None = None, prompt: str = ROUTER_PROMPT
+) -> list[dict[str, str]]:
     router_input = normalize_input(question, context)
     return [
-        {"role": "system", "content": load_system_prompt()},
+        {"role": "system", "content": load_system_prompt(prompt)},
         {"role": "user", "content": format_user_message(router_input)},
     ]
 

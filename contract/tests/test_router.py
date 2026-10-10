@@ -276,3 +276,26 @@ def test_router_prompt_is_frozen():
         "it. Changing it means re-running the baseline and the training, then updating "
         "FROZEN_ROUTER_PROMPT_VERSION."
     )
+
+
+def test_v2_prompt_examples_cover_steps_and_nulls_and_version_is_frozen():
+    from offscript_contract.router import (
+        FROZEN_ROUTER_PROMPT_V2_VERSION,
+        ROUTER_PROMPT,
+        ROUTER_PROMPT_V2,
+    )
+
+    lines = [
+        line
+        for line in load_system_prompt(ROUTER_PROMPT_V2).splitlines()
+        if line.startswith('{"route":"') and "<" not in line
+    ]
+    replies = [parse_router_output(line) for line in lines]
+    assert {reply.route for reply in replies} == set(Route)
+    assert {reply.route for reply in replies if reply.outdoor_action is None} == set(Route)
+    assert any(reply.outdoor_action for reply in replies)
+    assert router_prompt_version(ROUTER_PROMPT_V2) == FROZEN_ROUTER_PROMPT_V2_VERSION
+    # The live app keeps the v1 prompt until the v2 checkpoint ships.
+    assert ROUTER_PROMPT == "router_system"
+    messages = build_router_messages("Why is ice slippery?", None, prompt=ROUTER_PROMPT_V2)
+    assert messages[0]["content"] == load_system_prompt(ROUTER_PROMPT_V2)

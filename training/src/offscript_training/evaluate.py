@@ -6,6 +6,8 @@ Base and tuned runs use the identical prompt, renderer and sampling settings (te
         --data training/data/test_sealed.jsonl --out training/runs/baseline
     uv run --env-file training/.env python -m offscript_training.evaluate \\
         --model-path tinker://.../sampler_weights/... --out training/runs/<run>/eval
+    uv run --env-file training/.env python -m offscript_training.evaluate --base --prompt v2 \\
+        --data training/data/test_sealed_v2.jsonl --out training/runs/baseline-v2
 """
 
 import argparse
@@ -22,6 +24,8 @@ from offscript_contract.rendering import decode_completion, render_chat_prompt, 
 from offscript_contract.router import (
     BASE_MODEL,
     MAX_TOKENS,
+    ROUTER_PROMPT,
+    ROUTER_PROMPT_V2,
     TEMPERATURE,
     build_router_messages,
     parse_router_output,
@@ -33,7 +37,12 @@ from offscript_training.metrics import compute
 CONCURRENCY = 8
 
 
-async def run(rows: list[dict], model_path: str | None) -> list[dict]:
+PROMPTS = {"v1": ROUTER_PROMPT, "v2": ROUTER_PROMPT_V2}
+
+
+async def run(
+    rows: list[dict], model_path: str | None, router_prompt: str = ROUTER_PROMPT
+) -> list[dict]:
     service = tinker.ServiceClient()
     if model_path:
         client = await service.create_sampling_client_async(model_path=model_path)
@@ -46,7 +55,7 @@ async def run(rows: list[dict], model_path: str | None) -> list[dict]:
     gate = asyncio.Semaphore(CONCURRENCY)
 
     async def one(row: dict) -> dict:
-        messages = build_router_messages(row["question"], row["context"])
+        messages = build_router_messages(row["question"], row["context"], prompt=router_prompt)
         prompt = tinker.ModelInput.from_ints(render_chat_prompt(tokenizer, messages))
         async with gate:
             response = await client.sample_async(
@@ -71,10 +80,12 @@ def main(argv: list[str]) -> int:
     which.add_argument("--model-path", help="tinker:// sampler checkpoint path")
     parser.add_argument("--data", type=Path, default=SEALED_FILE)
     parser.add_argument("--out", type=Path, required=True)
+    parser.add_argument("--prompt", choices=sorted(PROMPTS), default="v1", help="router prompt")
     args = parser.parse_args(argv)
+    prompt = PROMPTS[args.prompt]
 
     rows = load_eval_rows(args.data)
-    records = asyncio.run(run(rows, args.model_path))
+    records = asyncio.run(run(rows, args.model_path, prompt))
     args.out.mkdir(parents=True, exist_ok=True)
     with (args.out / "raw_outputs.jsonl").open("w", encoding="utf-8") as out:
         for record in records:
@@ -82,7 +93,8 @@ def main(argv: list[str]) -> int:
     metrics = {
         "model": args.model_path or BASE_MODEL,
         "data": str(args.data),
-        "router_prompt_version": router_prompt_version(),
+        "router_prompt": prompt,
+        "router_prompt_version": router_prompt_version(prompt),
         "sampling": {"temperature": TEMPERATURE, "max_tokens": MAX_TOKENS},
         "evaluated_at": datetime.now(UTC).isoformat(timespec="seconds"),
         **compute(records),
