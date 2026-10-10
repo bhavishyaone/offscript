@@ -63,7 +63,7 @@ class LabelledExample(BaseModel):
     search_query: str | None = None
     who_to_ask: str | None = None
     suggested_question: str | None = None
-    outdoor_action: str
+    outdoor_action: str | None  # required key; null when no real-world step helps
 
     @model_validator(mode="after")
     def _clean_and_consistent(self) -> "LabelledExample":
@@ -77,7 +77,11 @@ class LabelledExample(BaseModel):
 
     @property
     def label(self) -> AIOutput | SearchOutput | HumanOutput:
-        payload = {"route": self.route.value, "reason": self.reason}
+        payload = {
+            "route": self.route.value,
+            "reason": self.reason,
+            "outdoor_action": self.outdoor_action,  # kept even when null
+        }
         payload |= {name: getattr(self, name) for name in ROUTE_FIELDS if getattr(self, name)}
         return ROUTER_OUTPUT.validate_python(payload)
 
@@ -136,7 +140,7 @@ def validate_dataset(path: str | Path, row_model: type[BaseModel] | None = None)
         row_model = SealedExample if Path(path).name.startswith("test_sealed") else LabelledExample
     report = DatasetReport()
     seen_ids: dict[str, int] = {}
-    seen_questions: dict[str, int] = {}
+    seen_questions: dict[tuple[str, str], int] = {}
     for number, line in enumerate(Path(path).read_text("utf-8").splitlines(), start=1):
         if not line.strip():
             report.errors.append(f"line {number}: blank line")
@@ -158,9 +162,12 @@ def validate_dataset(path: str | Path, row_model: type[BaseModel] | None = None)
                 f"line {number}: id {example.id!r} repeats line {seen_ids[example.id]}"
             )
         seen_ids.setdefault(example.id, number)
-        key = example.question.casefold()
+        # The same question with a different context is a deliberate pair, not a duplicate.
+        key = (example.question.casefold(), example.context.casefold())
         if key in seen_questions:
-            report.errors.append(f"line {number}: question repeats line {seen_questions[key]}")
+            report.errors.append(
+                f"line {number}: question and context repeat line {seen_questions[key]}"
+            )
         seen_questions.setdefault(key, number)
         report.examples.append(example)
     return report

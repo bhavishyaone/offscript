@@ -64,6 +64,19 @@ def test_card_response_search_serialization():
     assert len(card.content.sources) == 1
 
 
+def test_card_without_a_step_sends_an_explicit_null():
+    card = CardResponse(
+        fit=Fit.OK,
+        route=Route.AI,
+        reason="Exchange-rate maths is stable know-how.",
+        content=AiCardContent(answer="Multiply the dollars by the current rate."),
+        request_id="req_null",
+        latency_ms=12,
+    )
+    assert card.content.outdoor_action is None
+    assert card.model_dump(mode="json")["content"]["outdoor_action"] is None
+
+
 def test_guard_response_serialization():
     guard = GuardResponse(
         fit=GuardFit.NEEDS_DETAIL,

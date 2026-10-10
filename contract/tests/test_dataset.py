@@ -90,8 +90,23 @@ def test_report_lists_every_problem_with_line_numbers(tmp_path):
     assert "line 3: not valid JSON" in joined
     assert "line 4: blank line" in joined
     assert "line 5: id 't001' repeats line 1" in joined
-    assert "line 6: question repeats line 1" in joined
+    assert "line 6: question and context repeat line 1" in joined
     assert report.counts == {"HUMAN": 3, "AI": 1}
+
+
+def test_same_question_with_different_context_is_not_a_duplicate(tmp_path):
+    pair = {**AI_ROW, "id": "t005", "question": GOOD["question"], "context": ""}
+    report = validate_dataset(write_rows(tmp_path, [GOOD, pair]))
+    assert report.errors == []
+
+
+def test_null_outdoor_action_is_kept_in_the_target():
+    example = LabelledExample.model_validate({**AI_ROW, "outdoor_action": None})
+    assert example.label.outdoor_action is None
+    assert example.target_json.endswith(',"outdoor_action":null}')
+    without_key = {key: value for key, value in AI_ROW.items() if key != "outdoor_action"}
+    with pytest.raises(ValueError):
+        LabelledExample.model_validate(without_key)
 
 
 def test_cli_exit_codes(tmp_path, capsys):

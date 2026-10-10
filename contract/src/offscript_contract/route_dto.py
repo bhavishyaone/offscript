@@ -60,7 +60,9 @@ class AiCardContent(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     answer: str = Field(..., description="Concise know-how answer.")
-    outdoor_action: str = Field(..., description="One concrete step outside.")
+    outdoor_action: str | None = Field(
+        default=None, description="One concrete step outside, or null when none genuinely helps."
+    )
 
 
 class SearchCardContent(BaseModel):
@@ -74,7 +76,9 @@ class SearchCardContent(BaseModel):
         description="Grounding search sources.",
     )
     search_url: str = Field(..., description="Search engine query link.")
-    outdoor_action: str = Field(..., description="One concrete step outside.")
+    outdoor_action: str | None = Field(
+        default=None, description="One concrete step outside, or null when none genuinely helps."
+    )
     summary: str | None = Field(default=None, description="Grounded answer from search results.")
     summary_source: int | None = Field(
         default=None,
@@ -91,7 +95,9 @@ class HumanCardContent(BaseModel):
 
     who_to_ask: str = Field(..., description="Person type to ask in real world.")
     suggested_question: str = Field(..., description="Natural spoken question (under 20 words).")
-    outdoor_action: str = Field(..., description="One concrete step outside.")
+    outdoor_action: str | None = Field(
+        default=None, description="One concrete step outside, or null when none genuinely helps."
+    )
 
 
 class CardResponse(BaseModel):
