@@ -9,7 +9,7 @@ from offscript_api.main import app
 from offscript_api.services.model_service import FakeModelService, InvalidModelOutputError
 from offscript_api.services.pipeline import run_pipeline
 from offscript_contract.route_dto import SearchSource
-from offscript_contract.router import SearchOutput, normalize_input
+from offscript_contract.router import AIOutput, SearchOutput, normalize_input
 from offscript_contract.search_summary import SearchSummary
 
 client = TestClient(app)
@@ -200,3 +200,18 @@ def test_failed_summary_still_returns_the_search_links():
     assert card.kind == "card" and card.route == "SEARCH"
     assert len(card.content.sources) == 2
     assert card.content.summary is None and card.content.summary_source is None
+
+
+def test_null_outdoor_action_passes_through_and_is_never_invented():
+    reply = AIOutput(
+        route="AI",
+        reason="Exchange-rate maths is stable know-how.",
+        answer="Multiply the dollars by the current rate.",
+        outdoor_action=None,
+    )
+    card = asyncio.run(
+        run_pipeline(normalize_input("How do I convert 50 dollars to rupees?"), "req_n",
+                     FakeModelService(canned_route=reply), TwoResultSerpApi())
+    )  # fmt: skip
+    assert card.kind == "card" and card.route == "AI"
+    assert card.content.outdoor_action is None

@@ -312,3 +312,38 @@ def test_post_route_invalid_model_output_502():
         assert data["error"]["code"] == "invalid_model_output"
     finally:
         app.dependency_overrides.pop(get_model_service, None)
+
+
+# ── Optional outdoor step (null) ────────────────────────────────────
+
+
+def _post(question: str) -> dict:
+    response = client.post("/api/route", json={"question": question})
+    assert response.status_code == 200
+    return response.json()
+
+
+def test_ai_card_without_a_step_returns_explicit_null():
+    data = _post("How do I write a cover letter for an internship?")
+    assert data["kind"] == "card" and data["route"] == "AI"
+    assert data["content"]["answer"]
+    assert "outdoor_action" in data["content"] and data["content"]["outdoor_action"] is None
+
+
+def test_search_card_without_a_step_returns_explicit_null():
+    data = _post("What is the USD to INR exchange rate today?")
+    assert data["kind"] == "card" and data["route"] == "SEARCH"
+    assert data["content"]["sources"]
+    assert data["content"]["outdoor_action"] is None
+
+
+def test_human_card_without_a_step_keeps_who_and_what_to_ask():
+    data = _post("What is hostel life at IIT Delhi really like?")
+    assert data["kind"] == "card" and data["route"] == "HUMAN"
+    assert data["content"]["who_to_ask"] and data["content"]["suggested_question"]
+    assert data["content"]["outdoor_action"] is None
+
+
+def test_ordinary_questions_still_get_a_step():
+    data = _post("How do I join a casual pickup game at the court?")
+    assert isinstance(data["content"]["outdoor_action"], str) and data["content"]["outdoor_action"]

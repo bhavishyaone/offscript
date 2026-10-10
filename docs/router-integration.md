@@ -11,9 +11,9 @@ question (+ context)
   3. guard check              → base Qwen3.5-9B, guard.py
        needs_detail / two_questions → show its message, stop
   4. router                   → fine-tuned checkpoint, router.py
-       AI      → show `answer` + `outdoor_action`
+       AI      → show `answer` + `outdoor_action` (if not null)
        SEARCH  → SerpApi(search_query) → search summary (step 5)
-       HUMAN   → show `who_to_ask`, `suggested_question`, `outdoor_action`, "Go offscript"
+       HUMAN   → show `who_to_ask`, `suggested_question`, `outdoor_action` (if not null), "Go offscript"
   5. search summary (SEARCH only) → base Qwen3.5-9B, search_summary.py
 ```
 
@@ -39,7 +39,17 @@ The backend needs `tinker` only, not `tinker-cookbook`, so PyTorch is never inst
 | `SEARCH` | `reason`, `search_query` | Query on one line, up to 200 characters |
 | `HUMAN` | `reason`, `who_to_ask`, `suggested_question` | One person type; one question ending in "?", about 25 words, hard limit 30 |
 
-Every route also has `outdoor_action`: one concrete, optional step outside related to the question (one line, about 35 words at most; conditional for SEARCH). Show it on every result.
+Every route also has the `outdoor_action` key: one concrete, optional step outside related to the question (one line, about 35 words at most; conditional for SEARCH), or `null` when no real-world step genuinely helps (a cover letter, an exchange rate). The key is always present.
+
+How the UI uses it:
+
+| `outdoor_action` | Route | Show |
+|---|---|---|
+| a step | any | The step section, and "Go offscript" |
+| `null` | AI or SEARCH | No step section and no "Go offscript": the answer is complete on screen |
+| `null` | HUMAN | No step section, but keep "Go offscript": asking the person is the real-world step. The pocket card shows who to ask and the question |
+
+The backend never invents a step: whatever the model returns is passed through. The v1 checkpoint always returns a step; `null` appears once v2 is live.
 
 The reason is one line, up to 160 characters. Fields for other routes, or any extra field, make the reply invalid.
 
@@ -66,6 +76,16 @@ Log only the guard verdict, route, latency and error codes; never the question, 
 ## Mocks
 
 Only when `OFFSCRIPT_MODE=mock` (the API refuses to start with mock in production). Use the raw replies in `contract/fixtures/router/`, `contract/fixtures/guard/` and `contract/fixtures/search_summary/`, passed through the same parsers. The `invalid` cases test error handling. Responses are labelled mock.
+
+To test a result with no outdoor step in mock mode, ask a question containing:
+
+| Words in the question | Mock reply |
+|---|---|
+| "cover letter", "email" or "convert" | AI, `outdoor_action: null` |
+| "exchange rate", "usd to inr" or "dollar rate" | SEARCH, `outdoor_action: null` |
+| "hostel life", "what is it like to live" or "work culture" | HUMAN, `outdoor_action: null` |
+
+Every other mock question returns a step, as before.
 
 ## Versions and handover
 
