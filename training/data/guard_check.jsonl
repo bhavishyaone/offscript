@@ -1,0 +1,34 @@
+{"id": "gc001", "question": "How do regulars here decide who bowls next?", "context": "at the nets in Shivaji Park", "expected": "ok"}
+{"id": "gc002", "question": "What do people usually order at this tea stall?", "context": "standing at the stall now", "expected": "ok"}
+{"id": "gc003", "question": "Is this running group friendly to slow runners?", "context": "at the group's meeting point", "expected": "ok"}
+{"id": "gc004", "question": "Which bench do the birdwatchers here prefer in the morning?", "context": "at the lake in Cubbon Park", "expected": "ok"}
+{"id": "gc005", "question": "How do the vendors at this market feel about bargaining?", "context": "at the Sunday market", "expected": "ok"}
+{"id": "gc006", "question": "What should a first-timer know before joining this yoga circle?", "context": "at the park, the class starts in ten minutes", "expected": "ok"}
+{"id": "gc007", "question": "How do people at this ghat usually take a dip safely?", "context": "at the ghat", "expected": "ok"}
+{"id": "gc008", "question": "Which dish do students in this canteen actually like?", "context": "in my college canteen", "expected": "ok"}
+{"id": "gc009", "question": "Is the Prince of Wales Museum in Mumbai open on Mondays?", "context": "", "expected": "ok"}
+{"id": "gc010", "question": "What time does Mysore Palace light up tonight?", "context": "", "expected": "ok"}
+{"id": "gc011", "question": "Who won the last India vs Australia Test match?", "context": "", "expected": "ok"}
+{"id": "gc012", "question": "Is Cubbon Park closed to traffic this Sunday?", "context": "", "expected": "ok"}
+{"id": "gc013", "question": "What's the weather in Shimla tomorrow?", "context": "", "expected": "ok"}
+{"id": "gc014", "question": "Are tickets still available for the Hornbill Festival this year?", "context": "", "expected": "ok"}
+{"id": "gc015", "question": "What do locals say is the best time to visit Pangong Lake?", "context": "", "expected": "ok"}
+{"id": "gc016", "question": "Tell me about the hostel life at NIT Trichy.", "context": "", "expected": "ok"}
+{"id": "gc017", "question": "What's the student culture like at St. Stephen's College?", "context": "", "expected": "ok"}
+{"id": "gc018", "question": "How do I keep basil alive on a balcony?", "context": "", "expected": "ok"}
+{"id": "gc019", "question": "Why do cats purr?", "context": "", "expected": "ok"}
+{"id": "gc020", "question": "How do I start journaling?", "context": "", "expected": "ok"}
+{"id": "gc021", "question": "What's a good way to learn swimming as an adult?", "context": "", "expected": "ok"}
+{"id": "gc022", "question": "best momos in Lajpat Nagar", "context": "", "expected": "ok"}
+{"id": "gc023", "question": "kal Mumbai mein kitni barish hogi?", "context": "", "expected": "ok"}
+{"id": "gc024", "question": "How do I ask a neighbour to lower their music?", "context": "", "expected": "ok"}
+{"id": "gc025", "question": "Is it open now?", "context": "", "expected": "needs_detail"}
+{"id": "gc026", "question": "What time does the show start?", "context": "", "expected": "needs_detail"}
+{"id": "gc027", "question": "Is the match on today?", "context": "", "expected": "needs_detail"}
+{"id": "gc028", "question": "Which one should I visit?", "context": "", "expected": "needs_detail"}
+{"id": "gc029", "question": "How far is it from here?", "context": "", "expected": "needs_detail"}
+{"id": "gc030", "question": "Is the place crowded right now?", "context": "", "expected": "needs_detail"}
+{"id": "gc031", "question": "What's the entry fee?", "context": "", "expected": "needs_detail"}
+{"id": "gc032", "question": "How do I learn to skate, and where is a rink open tonight?", "context": "", "expected": "two_questions"}
+{"id": "gc033", "question": "What is the best bat for beginners and when is the next cricket camp in Pune?", "context": "", "expected": "two_questions"}
+{"id": "gc034", "question": "Why is the sky blue, and is the planetarium open today?", "context": "", "expected": "two_questions"}

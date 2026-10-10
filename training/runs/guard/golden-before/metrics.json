@@ -1,0 +1,38 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "data": "training/runs/guard/golden-input.jsonl",
+  "guard_prompt_version": "69afb551f854",
+  "sampling": {
+    "temperature": 0.0,
+    "max_tokens": 100
+  },
+  "evaluated_at": "2026-10-10T09:28:00+00:00",
+  "questions": 19,
+  "passed_good": 8,
+  "good_questions": 19,
+  "wrongly_stopped_ids": [
+    "R06",
+    "R08",
+    "R09",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R17",
+    "R18",
+    "R24"
+  ],
+  "caught": 0,
+  "should_stop": 0,
+  "missed_ids": [],
+  "invalid": 0,
+  "confusion": {
+    "ok": {
+      "ok": 8,
+      "needs_detail": 11
+    },
+    "needs_detail": {},
+    "two_questions": {}
+  }
+}
