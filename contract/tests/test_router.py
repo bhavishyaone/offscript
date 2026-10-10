@@ -115,13 +115,28 @@ def test_target_json_is_compact_ordered_and_keeps_unicode():
     )
 
 
-def test_outdoor_action_is_required_and_limited():
+def test_outdoor_action_key_is_required_and_limited():
     base = {"route": "SEARCH", "reason": "Live.", "search_query": "q"}
     ROUTER_OUTPUT.validate_python({**base, "outdoor_action": " ".join(["go"] * 35)})
     for action in [None, "", "two\nlines", " ".join(["go"] * 36)]:
         payload = base if action is None else {**base, "outdoor_action": action}
         with pytest.raises(ValueError):
             ROUTER_OUTPUT.validate_python(payload)
+
+
+@pytest.mark.parametrize(
+    "payload",
+    [
+        {"route": "AI", "reason": "Stable.", "answer": "Hold it level."},
+        {"route": "SEARCH", "reason": "Live.", "search_query": "usd inr rate"},
+        {"route": "HUMAN", "reason": "Firsthand.", "who_to_ask": "a current student",
+         "suggested_question": "What is a normal week here like?"},
+    ],
+)  # fmt: skip
+def test_outdoor_action_may_be_null_on_every_route(payload):
+    reply = parse_router_output(json.dumps({**payload, "outdoor_action": None}))
+    assert reply.outdoor_action is None
+    assert to_target_json(reply).endswith(',"outdoor_action":null}')
 
 
 @pytest.mark.parametrize("case", FIXTURES["valid"], ids=lambda case: case["name"])

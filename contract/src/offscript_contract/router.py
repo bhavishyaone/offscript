@@ -53,7 +53,9 @@ class _RouterReply(BaseModel):
     model_config = ConfigDict(extra="forbid", frozen=True)
 
     reason: str
-    outdoor_action: str  # one concrete step outside, on every route
+    # One concrete step outside, or null when no real-world step genuinely helps. The key is
+    # always present, so the model states the decision explicitly.
+    outdoor_action: str | None
 
     @field_validator("reason")
     @classmethod
@@ -62,7 +64,9 @@ class _RouterReply(BaseModel):
 
     @field_validator("outdoor_action")
     @classmethod
-    def _outdoor_action(cls, value: str) -> str:
+    def _outdoor_action(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
         return check_text(
             value, max_chars=OUTDOOR_ACTION_MAX_CHARS, max_words=OUTDOOR_ACTION_MAX_WORDS
         )

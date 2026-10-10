@@ -24,6 +24,18 @@
     {
       "name": "unicode",
       "text": "{\"route\":\"HUMAN\",\"reason\":\"The café's regulars know its quiet hours.\",\"who_to_ask\":\"a café regular\",\"suggested_question\":\"When is it usually quiet here?\",\"outdoor_action\":\"Try it once outside and notice what changes.\"}"
+    },
+    {
+      "name": "ai_no_step",
+      "text": "{\"route\":\"AI\",\"reason\":\"Exchange-rate maths is stable know-how you can do on the spot.\",\"answer\":\"Multiply the amount in dollars by the current rate. For 50 dollars at a rate of 83, that is 50 x 83 = 4,150 rupees. Banks and card providers usually add a small fee on top.\",\"outdoor_action\":null}"
+    },
+    {
+      "name": "search_no_step",
+      "text": "{\"route\":\"SEARCH\",\"reason\":\"Exchange rates change through the day, so a current source is needed.\",\"search_query\":\"USD to INR exchange rate today\",\"outdoor_action\":null}"
+    },
+    {
+      "name": "human_no_step",
+      "text": "{\"route\":\"HUMAN\",\"reason\":\"What hostel life feels like is something current residents know firsthand.\",\"who_to_ask\":\"a current hostel resident\",\"suggested_question\":\"What does a normal week in the hostel feel like?\",\"outdoor_action\":null}"
     }
   ],
   "invalid": [

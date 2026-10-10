@@ -64,7 +64,7 @@ Every result has the **route** and a one-sentence **reason** (F09), plus the rou
 
 - **HUMAN results** end with a clear step away from the screen ("Go offscript"), and the user can skip without pressure (F20). Optional "I asked" / "Skip" feedback is stored only in the browser (F21).
 - **"Ask another question"** is available after every result (F04).
-- **Every result also has an `outdoor_action`**: one concrete, optional step outside related to the question (conditional for SEARCH). Card layout is the frontend team's call; S01's "Only out there" line is not used.
+- **`outdoor_action`** is one concrete, optional step outside related to the question (conditional for SEARCH), **or `null` when no real-world step genuinely helps** (for example a cover letter or an exchange rate). The key is always present. The UI hides the step section when it is `null`, and keeps "Go offscript" on every HUMAN result. The current v1 checkpoint always returns a step; v2 learns when to leave it out. Card layout is the frontend team's call; S01's "Only out there" line is not used.
 
 ## A4. Guards (no result card)
 
@@ -292,7 +292,7 @@ Do not build any of these:
 - **Model:** `Qwen/Qwen3.5-9B` on Tinker, renderer `qwen3_5_disable_thinking`, env vars `TINKER_API_KEY` and `TINKER_MODEL_PATH`.
 - **Routes only:** the model returns AI, SEARCH or HUMAN, never a guard. It also writes a reason and the route's F31 fields: `answer`; `search_query`; `who_to_ask` and `suggested_question`.
 - **Guards:** safety and refusal are backend rules before the model; a separate untuned check on the base model runs before routing; `search_limitation` comes from the search step.
-- **Outdoor action:** every route includes `outdoor_action`, one concrete step outside (S01's "Do this"), learned from the training data's outdoor-action column.
+- **Outdoor action:** every route includes the `outdoor_action` key: one concrete step outside (S01's "Do this"), or `null` when no real-world step genuinely helps (decided Oct 10, 2026). v1 always fills it; the v2 dataset teaches when to leave it out.
 - **Guard check** (model side, `guard.py`): catches missing essential details and two questions in one, and writes a short message to the user.
 - **Lengths:** AI answer about 50 words (hard limit 70); HUMAN question about 25 words (hard limit 30).
 - **SEARCH:** an untuned summary prompt (model side, `search_summary.py`) writes a grounded short answer from the results plus an optional local tip about local experience; numbers are checked against the cited result.
