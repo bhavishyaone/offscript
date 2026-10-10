@@ -22,6 +22,7 @@ export interface SearchContent {
   search_url: string
   outdoor_action: string
   summary?: string | null
+  summary_source?: number | null
   local_tip?: string | null
 }
 
@@ -48,7 +49,6 @@ export interface GuardResponse {
   route: null
   reason: string
   message: string
-  suggested_question?: string
   search_url?: string
   request_id: string
   latency_ms: number

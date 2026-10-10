@@ -75,6 +75,9 @@ class BaseRouteService(ABC):
     @abstractmethod
     def is_mock(self) -> bool: ...
 
+    async def start(self) -> None:  # noqa: B027 (optional hook: only the live service connects)
+        """Connect to the model service ahead of the first request. No-op unless overridden."""
+
     @abstractmethod
     async def check_guard(
         self, question: str, context: str | None, remaining_budget_s: float
@@ -109,10 +112,14 @@ class LiveModelService(BaseRouteService):
         self._base_client: Any = None
         self._router_client: Any = None
         self._tokenizer: Any = None
+        self._init_lock = asyncio.Lock()
 
     @property
     def is_mock(self) -> bool:
         return False
+
+    async def start(self) -> None:
+        await self._ensure_initialized()
 
     async def _ensure_initialized(self) -> None:
         if self._router_client is not None:
@@ -120,20 +127,27 @@ class LiveModelService(BaseRouteService):
         if not self.tinker_api_key or not self.tinker_model_path:
             raise ModelUnavailableError("Tinker API key or model path is not configured.")
 
-        try:
-            import tinker
+        async with self._init_lock:  # concurrent first requests must not connect twice
+            if self._router_client is not None:
+                return
+            try:
+                import tinker
 
-            self._service_client = tinker.ServiceClient(api_key=self.tinker_api_key)
-            self._base_client = await self._service_client.create_sampling_client_async(
-                base_model=BASE_MODEL
-            )
-            self._router_client = await self._service_client.create_sampling_client_async(
-                model_path=self.tinker_model_path
-            )
-            self._tokenizer = self._router_client.get_tokenizer()
-        except Exception as err:
-            logger.error("Failed to initialize Tinker sampling clients: %s", type(err).__name__)
-            raise ModelUnavailableError("Failed to connect to model service.") from err
+                service_client = tinker.ServiceClient(api_key=self.tinker_api_key)
+                base_client = await service_client.create_sampling_client_async(
+                    base_model=BASE_MODEL
+                )
+                router_client = await service_client.create_sampling_client_async(
+                    model_path=self.tinker_model_path
+                )
+                tokenizer = router_client.get_tokenizer()
+            except Exception as err:
+                logger.error("Failed to initialize Tinker sampling clients: %s", type(err).__name__)
+                raise ModelUnavailableError("Failed to connect to model service.") from err
+            self._service_client = service_client
+            self._base_client = base_client
+            self._tokenizer = tokenizer
+            self._router_client = router_client  # set last: it marks the service as ready
 
     async def _sample_with_retry(
         self,

@@ -35,7 +35,11 @@ _EMERGENCY_KEYWORDS = [
     "overdose",
     "fainted",
     "unconscious",
-    "emergency",
+    # Not bare "emergency": "emergency exit gate" is an ordinary question.
+    "an emergency",
+    "medical emergency",
+    "emergency room",
+    "emergency services",
     "call 911",
     "call 999",
     "call 112",
@@ -50,7 +54,8 @@ _MEDICAL_KEYWORDS = [
     "doctor",
     "diagnosis",
     "symptom",
-    "treatment",
+    "medical treatment",  # not bare "treatment": "water treatment plant"
+    "treatment for",
     "therapy",
     "medical advice",
 ]
@@ -68,7 +73,13 @@ _LEGAL_KEYWORDS = [
 _DANGEROUS_ROUTE_KEYWORDS = [
     "dark shortcut",
     "unsafe route",
-    "abandoned",
+    # Going inside is the risk, not the word: "the abandoned bridge from the public path" is fine.
+    "abandoned building",
+    "abandoned buildings",
+    "abandoned house",
+    "abandoned factory",
+    "abandoned mine",
+    "abandoned well",
     "trespass",
     "break in",
     "sneak in",

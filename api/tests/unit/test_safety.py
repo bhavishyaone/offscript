@@ -202,3 +202,22 @@ def test_stargazing_after_dark_passes():
         1,
     )
     assert result is None
+
+
+def test_ordinary_uses_of_emergency_treatment_abandoned_pass():
+    for question in (
+        "What time does the emergency exit gate at the stadium open?",
+        "Can I tour the water treatment plant?",
+        "Can I photograph the abandoned railway bridge from the public path?",
+    ):
+        assert check_safety(_make_input(question), "req_26", 1) is None, question
+
+
+def test_narrowed_phrases_still_trigger():
+    for question, fit in (
+        ("This is an emergency, what do I do?", "safety_guidance"),
+        ("What medical treatment helps a sprain?", "safety_guidance"),
+        ("How do I get inside the abandoned factory?", "safety_guidance"),
+    ):
+        result = check_safety(_make_input(question), "req_27", 1)
+        assert result is not None and result.fit == fit, question

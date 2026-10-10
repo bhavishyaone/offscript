@@ -716,6 +716,12 @@ h4 {
   gap: 6px;
 }
 
+.search-summary-source {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
 .search-action-btn {
   display: flex;
   align-items: center;

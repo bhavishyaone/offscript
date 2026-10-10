@@ -23,6 +23,7 @@ from offscript_api.clients.serpapi import (
 )
 from offscript_api.services.model_service import (
     BaseRouteService,
+    ModelServiceError,
 )
 from offscript_api.services.safety import check_safety
 from offscript_contract.guard import GuardVerdict
@@ -211,20 +212,27 @@ async def run_pipeline(
     # We have results: run search summary with base model
     search_results = [SearchResult(title=s.title, snippet=s.snippet, link=s.url) for s in sources]
 
-    summary_reply = await model_service.summarize_search(
-        router_input.question,
-        router_input.context if router_input.context != "none" else None,
-        search_results,
-        get_remaining_budget(),
-    )
-
     summary_text = None
+    summary_source = None
     local_tip = None
 
-    if summary_reply.status == SummaryStatus.ANSWERED and summary_reply.summary is not None:
+    # The results are real even if the summary fails, so a failed summary still shows the links.
+    try:
+        summary_reply = await model_service.summarize_search(
+            router_input.question,
+            router_input.context if router_input.context != "none" else None,
+            search_results,
+            get_remaining_budget(),
+        )
+    except ModelServiceError as err:
+        logger.warning("request_id=%s search summary failed: %s", request_id, err.code)
+        summary_reply = None
+
+    if summary_reply is not None and summary_reply.status == SummaryStatus.ANSWERED:
         ungrounded = ungrounded_numbers(summary_reply, search_results)
         if not ungrounded:
             summary_text = summary_reply.summary
+            summary_source = summary_reply.source
             local_tip = summary_reply.local_tip
         else:
             logger.warning("Search summary contained ungrounded numbers; treating as unclear")
@@ -239,6 +247,7 @@ async def run_pipeline(
             search_url=search_url,
             outdoor_action=router_reply.outdoor_action,
             summary=summary_text,
+            summary_source=summary_source,
             local_tip=local_tip,
         ),
         request_id=request_id,

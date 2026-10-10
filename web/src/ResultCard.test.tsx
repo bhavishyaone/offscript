@@ -96,4 +96,41 @@ describe('ResultCard AI and SEARCH actions (Task A03)', () => {
     expect(html).toContain('Quietest on weekday mornings.')
     expect(html).toContain('Open Web Search ↗')
   })
+
+  const searchCard = (summary: string | null, summarySource: number | null): CardResponse => ({
+    kind: 'card',
+    fit: 'ok',
+    route: 'SEARCH',
+    reason: 'Opening hours change.',
+    content: {
+      search_query: 'lalbagh open republic day',
+      sources: [
+        { title: 'Lalbagh timings', url: 'https://www.karnatakatourism.org/lalbagh' },
+        { title: 'Flower show', url: 'https://traveltwosome.com/lalbagh' },
+      ],
+      search_url: 'https://www.google.com/search?q=lalbagh+open+republic+day',
+      outdoor_action: 'If it is open, visit during its listed hours.',
+      summary,
+      summary_source: summarySource,
+    },
+    request_id: 'req_cite',
+    latency_ms: 30,
+  })
+
+  const render = (card: CardResponse) =>
+    renderToString(
+      React.createElement(ResultCard, { card, onGoOffscript: () => {}, onDismiss: () => {} }),
+    )
+
+  it('names the site the SEARCH summary relies on', () => {
+    const html = render(searchCard('Open 7 AM to 6 PM on Republic Day.', 1))
+    expect(html).toContain('According to <!-- -->karnatakatourism.org')
+    expect(html).not.toContain('clearly answer')
+  })
+
+  it('says so when the results do not clearly answer the question', () => {
+    const html = render(searchCard(null, null))
+    expect(html).toContain('The results don&#x27;t clearly answer this. Check the sources below.')
+    expect(html).not.toContain('According to')
+  })
 })

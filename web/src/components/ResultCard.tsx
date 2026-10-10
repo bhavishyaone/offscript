@@ -1,6 +1,17 @@
 import React from 'react'
 import type { CardResponse, AiContent, SearchContent, HumanContent } from '../types/route'
 
+// The site the search summary relies on, e.g. "karnatakatourism.org", or null if unknown.
+function citedSite(content: SearchContent): string | null {
+  const source = content.summary_source ? content.sources[content.summary_source - 1] : undefined
+  if (!source) return null
+  try {
+    return new URL(source.url).hostname.replace(/^www\./, '')
+  } catch {
+    return null
+  }
+}
+
 interface ResultCardProps {
   card: CardResponse
   onGoOffscript: () => void
@@ -79,6 +90,11 @@ export const ResultCard: React.FC<ResultCardProps> = ({ card, onGoOffscript, onD
           {(content as SearchContent).summary && (
             <div className="search-summary-container">
               <div className="search-summary-text">{(content as SearchContent).summary}</div>
+              {citedSite(content as SearchContent) && (
+                <div className="search-summary-source">
+                  According to {citedSite(content as SearchContent)}
+                </div>
+              )}
               {(content as SearchContent).local_tip && (
                 <div className="search-local-tip">
                   💡 <em>{(content as SearchContent).local_tip}</em>
@@ -86,6 +102,15 @@ export const ResultCard: React.FC<ResultCardProps> = ({ card, onGoOffscript, onD
               )}
             </div>
           )}
+
+          {!(content as SearchContent).summary &&
+            (content as SearchContent).sources &&
+            (content as SearchContent).sources.length > 0 && (
+              <div className="search-unverified-note">
+                <span className="note-icon">ℹ️</span>
+                <span>The results don't clearly answer this. Check the sources below.</span>
+              </div>
+            )}
 
           {(content as SearchContent).sources && (content as SearchContent).sources.length > 0 ? (
             <div className="sources-container">
